@@ -2,7 +2,7 @@
 using Microsoft.Owin;
 using Owin;
 
-namespace TenantCore
+namespace Unosquare.TenantCore
 {
     /// <summary>
     /// 

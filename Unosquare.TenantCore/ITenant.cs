@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace TenantCore
+namespace Unosquare.TenantCore
 {
     public interface ITenant
     {

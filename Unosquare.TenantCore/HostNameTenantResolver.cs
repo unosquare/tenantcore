@@ -2,7 +2,7 @@
 using System.Linq;
 using Microsoft.Owin;
 
-namespace TenantCore
+namespace Unosquare.TenantCore
 {
     public class HostNameTenantResolver : ITenantResolver
     {

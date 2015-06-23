@@ -5,7 +5,7 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OAuth;
 using Owin;
-using TenantCore;
+using Unosquare.TenantCore;
 using Unosquare.TenantCore.Sample.Providers;
 using Unosquare.TenantCore.Sample.Models;
 

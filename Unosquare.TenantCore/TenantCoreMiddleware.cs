@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.Owin;
 
-namespace TenantCore
+namespace Unosquare.TenantCore
 {
     public class TenantCoreMiddleware : OwinMiddleware
     {

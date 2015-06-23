@@ -1,6 +1,6 @@
 ﻿using Microsoft.Owin;
 
-namespace TenantCore
+namespace Unosquare.TenantCore
 {
     public interface ITenantResolver
     {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Web.Http.Controllers;
 using System.Web.Http.Filters;
 
-namespace TenantCore
+namespace Unosquare.TenantCore
 {
     public class UseTenantAttribute : ActionFilterAttribute
     {

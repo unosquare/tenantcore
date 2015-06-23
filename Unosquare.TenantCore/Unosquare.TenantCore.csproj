@@ -7,8 +7,8 @@
     <ProjectGuid>{09FE77E7-405D-4108-818E-4C1759876CE6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TenantCore</RootNamespace>
-    <AssemblyName>TenantCore</AssemblyName>
+    <RootNamespace>Unosquare.TenantCore</RootNamespace>
+    <AssemblyName>Unosquare.TenantCore</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
