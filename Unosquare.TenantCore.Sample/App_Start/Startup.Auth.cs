@@ -5,7 +5,6 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OAuth;
 using Owin;
-using Unosquare.TenantCore;
 using Unosquare.TenantCore.Sample.Providers;
 using Unosquare.TenantCore.Sample.Models;
 
@@ -22,15 +21,15 @@ namespace Unosquare.TenantCore.Sample
             // SetUp Multitenancy with TenantCore
             var tenants = new List<ITenant>
             {
-                new Tenant("local", "localhost"),
-                new Tenant("sample", "sample.local"),
-                new Tenant("fake", "fake.local")
+                new Tenant("local", "localhost", @"Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-Unosquare.TenantCore.Sample-20150623035426.mdf;Initial Catalog=aspnet-Unosquare.TenantCore.Sample-20150623035426;Integrated Security=True"),
+                new Tenant("sample", "sample.local", @"Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-Unosquare.TenantCore.Sample-sample.mdf;Initial Catalog=aspnet-Unosquare.TenantCore.Sample-sample;Integrated Security=True"),
+                new Tenant("fake", "fake.local", @"Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-Unosquare.TenantCore.Sample-fake.mdf;Initial Catalog=aspnet-Unosquare.TenantCore.Sample-fake;Integrated Security=True")
             };
             
             app.UseTenantCore(new HostNameTenantResolver(tenants));
 
             // Configure the db context and user manager to use a single instance per request
-            app.CreatePerOwinContext(ApplicationDbContext.Create);
+            app.CreatePerOwinContext<ApplicationDbContext>(ApplicationDbContext.Create);
             app.CreatePerOwinContext<ApplicationUserManager>(ApplicationUserManager.Create);
 
             // Enable the application to use a cookie to store information for the signed in user
