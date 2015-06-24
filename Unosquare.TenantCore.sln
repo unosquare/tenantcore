@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unosquare.TenantCore", "Unosquare.TenantCore\Unosquare.TenantCore.csproj", "{09FE77E7-405D-4108-818E-4C1759876CE6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Folder", "Solution Folder", "{051EA2EB-A8B9-40AA-86D5-DFA57101E956}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unosquare.TenantCore.Sample", "Unosquare.TenantCore.Sample\Unosquare.TenantCore.Sample.csproj", "{927291F0-657F-4FE8-BDFF-56F6BDF1B0AC}"
 EndProject
