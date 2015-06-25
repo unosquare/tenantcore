@@ -1,0 +1,6 @@
+language: csharp
+solution: Unosquare.TenantCore.sln
+install:
+  - nuget restore Unosquare.TenantCore.sln
+script:
+  - xbuild /p:Configuration=Release Unosquare.TenantCore.Lib.sln
