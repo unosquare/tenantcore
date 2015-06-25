@@ -13,6 +13,9 @@
         /// </summary>
         public static string OwinPropertyName = "Tenant";
 
+        /// <summary>
+        /// The Tenant Resolver
+        /// </summary>
         protected ITenantResolver Resolver;
 
         /// <summary>
