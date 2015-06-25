@@ -1,7 +1,6 @@
 # TenantCore
 
-TenantCore is an OWIN Middleware that it can help to resolve tenants, by request's hostname for example. You can create your own
-Tenant's resolver or use the default one. The tenant can have a database connection string or any property that you need.
+TenantCore is an OWIN Middleware that it can help to resolve tenants, a multitenancy middleware, by request's hostname for example or by any resolver. You can create your own Tenant's resolver or use the default one. The tenant can have a database connection string or any property that you need.
 
 To start you need to setup the Resolver and Tenants in your OWIN AppBuilder, for example:
 
