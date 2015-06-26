@@ -2,6 +2,7 @@
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using System;
+using System.Data.Common;
 using System.Data.Entity;
 using Unosquare.TenantCore.SampleDatabase.Models;
 
@@ -20,6 +21,11 @@ namespace Unosquare.TenantCore.SampleDatabase
         {
         }
 
+        public ApplicationDbContext(DbConnection connection)
+            : base(connection, true)
+        {
+        }
+
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
@@ -32,17 +38,14 @@ namespace Unosquare.TenantCore.SampleDatabase
         }
 
         public DbSet<Project> Projects { get; set; }
-    }
 
-    public class DbSeeder : DropCreateDatabaseAlways<ApplicationDbContext>
-    {
-        protected override void Seed(ApplicationDbContext context)
+        public void GenerateRandomData()
         {
             var random = new Random();
 
             for (var i = 0; i <= 20; i++)
             {
-                context.Projects.Add(new Project
+                Projects.Add(new Project
                 {
                     CreationDate = DateTime.Now,
                     Name = String.Format("Project {0}", i),
@@ -50,8 +53,15 @@ namespace Unosquare.TenantCore.SampleDatabase
                 });
             }
 
-            context.SaveChanges();
+            SaveChanges();
+        }
+    }
 
+    public class DbSeeder : DropCreateDatabaseAlways<ApplicationDbContext>
+    {
+        protected override void Seed(ApplicationDbContext context)
+        {
+            context.GenerateRandomData();
             base.Seed(context);
         }
     }

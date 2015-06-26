@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unosquare.TenantCore.Sample
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unosquare.TenantCore.SampleDatabase", "Unosquare.TenantCore.SampleDatabase\Unosquare.TenantCore.SampleDatabase.csproj", "{46C01FD4-1EC1-49AE-BCCC-EF8654E3D0E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unosquare.TenantCore.Tests", "Unosquare.TenantCore.Tests\Unosquare.TenantCore.Tests.csproj", "{57EE90BE-DBBD-48CD-AE54-1612016569D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{46C01FD4-1EC1-49AE-BCCC-EF8654E3D0E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46C01FD4-1EC1-49AE-BCCC-EF8654E3D0E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46C01FD4-1EC1-49AE-BCCC-EF8654E3D0E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57EE90BE-DBBD-48CD-AE54-1612016569D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57EE90BE-DBBD-48CD-AE54-1612016569D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57EE90BE-DBBD-48CD-AE54-1612016569D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57EE90BE-DBBD-48CD-AE54-1612016569D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
