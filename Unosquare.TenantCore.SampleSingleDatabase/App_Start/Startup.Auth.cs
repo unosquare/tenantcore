@@ -6,10 +6,10 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OAuth;
 using Owin;
-using Unosquare.TenantCore.Sample.Providers;
 using Unosquare.TenantCore.SampleDatabase;
+using Unosquare.TenantCore.SampleSingleDatabase.Providers;
 
-namespace Unosquare.TenantCore.Sample
+namespace Unosquare.TenantCore.SampleSingleDatabase
 {
     public partial class Startup
     {
@@ -22,20 +22,17 @@ namespace Unosquare.TenantCore.Sample
             // SetUp Multitenancy with TenantCore
             var tenants = new List<ITenant>
             {
-                new Tenant(1, "local", "localhost",
-                    @"Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-Unosquare.TenantCore.Sample-20150623035426.mdf;Initial Catalog=aspnet-Unosquare.TenantCore.Sample-20150623035426;Integrated Security=True"),
-                new Tenant(2, "sample", "sample.local",
-                    @"Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-Unosquare.TenantCore.Sample-sample.mdf;Initial Catalog=aspnet-Unosquare.TenantCore.Sample-sample;Integrated Security=True"),
-                new Tenant(3, "fake", "fake.local",
-                    @"Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-Unosquare.TenantCore.Sample-fake.mdf;Initial Catalog=aspnet-Unosquare.TenantCore.Sample-fake;Integrated Security=True")
+                new Tenant(1, "local", "localhost"),
+                new Tenant(2, "sample", "sample.local"),
+                new Tenant(3, "fake", "fake.local")
             };
-
-            app.UseTenantCore(new HostNameTenantResolver(tenants));
 
             Database.SetInitializer(new DbSeeder());
 
+            app.UseTenantCore(new HostNameTenantResolver(tenants, "TenantId"));
+
             // Configure the db context and user manager to use a single instance per request
-            app.CreatePerOwinContext<ApplicationDbContext>(ApplicationDbContext.CreateWithOptions);
+            app.CreatePerOwinContext(ApplicationDbContext.Create);
             app.CreatePerOwinContext<ApplicationUserManager>(ApplicationUserManager.Create);
 
             // Enable the application to use a cookie to store information for the signed in user

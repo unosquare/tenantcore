@@ -1,7 +1,7 @@
 ﻿using System.Web.Http;
 using Microsoft.Owin.Security.OAuth;
 
-namespace Unosquare.TenantCore.Sample
+namespace Unosquare.TenantCore.SampleSingleDatabase
 {
     public static class WebApiConfig
     {

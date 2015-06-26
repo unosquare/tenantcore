@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{927291F0-657F-4FE8-BDFF-56F6BDF1B0AC}</ProjectGuid>
+    <ProjectGuid>{705DF75F-0146-4135-9454-40FF571714BC}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Unosquare.TenantCore.Sample</RootNamespace>
-    <AssemblyName>Unosquare.TenantCore.Sample</AssemblyName>
+    <RootNamespace>Unosquare.TenantCore.SampleSingleDatabase</RootNamespace>
+    <AssemblyName>Unosquare.TenantCore.SampleSingleDatabase</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>false</UseIISExpress>
@@ -191,7 +191,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>9883</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost/tenant</IISUrl>
+          <IISUrl>http://localhost/tenantcore</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

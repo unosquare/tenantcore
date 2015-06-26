@@ -13,8 +13,9 @@
         protected List<ITenant> Tenants = new List<ITenant>();
 
         /// <summary>
-        /// Empty constructor
+        /// Insttances a new Resolver without tenants
         /// </summary>
+        /// <param name="databaseIdentifier">The Database Identifier</param>
         public HostNameTenantResolver(string databaseIdentifier = null)
         {
             DatabaseIdentifier = databaseIdentifier;
@@ -24,9 +25,11 @@
         /// Instances a new resolver with a tenant list
         /// </summary>
         /// <param name="tenants">The list of tenants</param>
-        public HostNameTenantResolver(IEnumerable<ITenant> tenants)
+        /// <param name="databaseIdentifier">The Database Identifier</param>
+        public HostNameTenantResolver(IEnumerable<ITenant> tenants, string databaseIdentifier = null)
         {
             Tenants.AddRange(tenants);
+            DatabaseIdentifier = databaseIdentifier;
         }
 
         /// <summary>
@@ -59,6 +62,9 @@
             return Tenants;
         }
 
+        /// <summary>
+        /// Retrieves the Database Identifier
+        /// </summary>
         public string DatabaseIdentifier { get; private set; }
     }
 }

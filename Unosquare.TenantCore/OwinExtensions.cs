@@ -32,7 +32,7 @@
                 throw new ArgumentNullException("resolver");
             }
 
-            return app.Use(typeof(TenantCoreMiddleware), resolver);
+            return app.Use(typeof (TenantCoreMiddleware), resolver);
         }
 
         /// <summary>
@@ -107,7 +107,7 @@
                 return Activator.CreateInstance<T>();
             }
 
-            return (T)Activator.CreateInstance(typeof(T), tenant.ConnectionString);
+            return (T) Activator.CreateInstance(typeof (T), tenant.ConnectionString);
         }
 
         /// <summary>

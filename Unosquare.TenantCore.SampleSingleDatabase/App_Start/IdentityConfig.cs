@@ -5,7 +5,7 @@ using Microsoft.Owin;
 using Unosquare.TenantCore.SampleDatabase;
 using Unosquare.TenantCore.SampleDatabase.Models;
 
-namespace Unosquare.TenantCore.Sample
+namespace Unosquare.TenantCore.SampleSingleDatabase
 {
     // Configure the application user manager used in this application. UserManager is defined in ASP.NET Identity and is used by the application.
 
@@ -19,7 +19,7 @@ namespace Unosquare.TenantCore.Sample
         public static ApplicationUserManager Create(IdentityFactoryOptions<ApplicationUserManager> options,
             IOwinContext context)
         {
-            var database = context.GetDbContext<ApplicationDbContext>();
+            var database = new ApplicationDbContext();
             var manager = new ApplicationUserManager(new UserStore<ApplicationUser>(database));
 
             // Configure validation logic for usernames
