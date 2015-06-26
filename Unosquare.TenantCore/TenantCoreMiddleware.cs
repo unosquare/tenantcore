@@ -36,6 +36,10 @@
         public async override Task Invoke(IOwinContext context)
         {
             var tenant = Resolver.Resolve(context.Request);
+            
+            if (tenant != null)
+                tenant.Resolver = Resolver;
+
             context.Set(OwinPropertyName, tenant);
 
             await Next.Invoke(context);

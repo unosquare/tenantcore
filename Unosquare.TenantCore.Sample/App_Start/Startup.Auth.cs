@@ -21,11 +21,14 @@ namespace Unosquare.TenantCore.Sample
             // SetUp Multitenancy with TenantCore
             var tenants = new List<ITenant>
             {
-                new Tenant("local", "localhost", @"Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-Unosquare.TenantCore.Sample-20150623035426.mdf;Initial Catalog=aspnet-Unosquare.TenantCore.Sample-20150623035426;Integrated Security=True"),
-                new Tenant("sample", "sample.local", @"Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-Unosquare.TenantCore.Sample-sample.mdf;Initial Catalog=aspnet-Unosquare.TenantCore.Sample-sample;Integrated Security=True"),
-                new Tenant("fake", "fake.local", @"Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-Unosquare.TenantCore.Sample-fake.mdf;Initial Catalog=aspnet-Unosquare.TenantCore.Sample-fake;Integrated Security=True")
+                new Tenant(1, "local", "localhost",
+                    @"Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-Unosquare.TenantCore.Sample-20150623035426.mdf;Initial Catalog=aspnet-Unosquare.TenantCore.Sample-20150623035426;Integrated Security=True"),
+                new Tenant(2, "sample", "sample.local",
+                    @"Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-Unosquare.TenantCore.Sample-sample.mdf;Initial Catalog=aspnet-Unosquare.TenantCore.Sample-sample;Integrated Security=True"),
+                new Tenant(3, "fake", "fake.local",
+                    @"Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-Unosquare.TenantCore.Sample-fake.mdf;Initial Catalog=aspnet-Unosquare.TenantCore.Sample-fake;Integrated Security=True")
             };
-            
+
             app.UseTenantCore(new HostNameTenantResolver(tenants));
 
             // Configure the db context and user manager to use a single instance per request

@@ -8,6 +8,11 @@
     public interface ITenant
     {
         /// <summary>
+        /// Tenant's Id
+        /// </summary>
+        long Id { get; }
+
+        /// <summary>
         /// Tenant's name
         /// </summary>
         string Name { get; }
@@ -26,5 +31,10 @@
         /// Properties collection
         /// </summary>
         Dictionary<string, string> Properties { get; }
+
+        /// <summary>
+        /// The Resolver instance
+        /// </summary>
+        ITenantResolver Resolver { get; set; }
     }
 }

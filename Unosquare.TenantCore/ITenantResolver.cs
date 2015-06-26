@@ -21,5 +21,12 @@
         /// </summary>
         /// <returns>The Tenant's list</returns>
         List<ITenant> GetTenants();
+
+        /// <summary>
+        /// Gets the Database Identifier, for example if
+        /// your tables contains TenantId column, this is your
+        /// Identifier
+        /// </summary>
+        string DatabaseIdentifier { get; }
     }
 }

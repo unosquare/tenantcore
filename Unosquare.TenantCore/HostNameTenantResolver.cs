@@ -15,9 +15,9 @@
         /// <summary>
         /// Empty constructor
         /// </summary>
-        public HostNameTenantResolver()
+        public HostNameTenantResolver(string databaseIdentifier = null)
         {
-            
+            DatabaseIdentifier = databaseIdentifier;
         }
 
         /// <summary>
@@ -58,5 +58,7 @@
         {
             return Tenants;
         }
+
+        public string DatabaseIdentifier { get; private set; }
     }
 }
