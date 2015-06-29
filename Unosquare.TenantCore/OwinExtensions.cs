@@ -18,9 +18,11 @@
         /// </summary>
         /// <param name="app">The AppBuilder instance</param>
         /// <param name="resolver">The Tenant Resolver instance</param>
+        /// <param name="callback">The callback method</param>
         /// <returns>AppBuilder with TenantCore</returns>
         /// <exception cref="ArgumentNullException"></exception>
-        public static IAppBuilder UseTenantCore(this IAppBuilder app, ITenantResolver resolver)
+        public static IAppBuilder UseTenantCore(this IAppBuilder app, ITenantResolver resolver,
+            Func<ITenant, bool> callback = null)
         {
             if (app == null)
             {
@@ -32,7 +34,7 @@
                 throw new ArgumentNullException("resolver");
             }
 
-            return app.Use(typeof (TenantCoreMiddleware), resolver);
+            return app.Use(typeof (TenantCoreMiddleware), resolver, callback);
         }
 
         /// <summary>
