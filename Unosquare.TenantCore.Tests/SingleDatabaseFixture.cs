@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using Effort;
+﻿using Effort;
 using Microsoft.Owin.Testing;
 using NUnit.Framework;
 using Owin;
+using System.Collections.Generic;
+using System.Linq;
 using Unosquare.TenantCore.SampleDatabase;
 
 namespace Unosquare.TenantCore.Tests
@@ -41,7 +40,7 @@ namespace Unosquare.TenantCore.Tests
 
                     return context.Response.WriteAsync(tenant.Name);
                 });
-            });   
+            });
         }
 
         [Test]

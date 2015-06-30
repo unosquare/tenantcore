@@ -46,11 +46,15 @@
             if (tenant != null)
             {
                 tenant.Resolver = Resolver;
-                var callBackResult = Callback(tenant);
 
-                if (callBackResult == false)
+                if (Callback != null)
                 {
-                    // Do something maybe
+                    var callBackResult = Callback(tenant);
+
+                    if (callBackResult == false)
+                    {
+                        // Do something maybe
+                    }
                 }
             }
 
