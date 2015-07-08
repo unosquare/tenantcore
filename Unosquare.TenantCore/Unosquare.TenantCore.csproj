@@ -73,8 +73,10 @@
     <Compile Include="ITenantResolver.cs" />
     <Compile Include="OwinExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RouteTenantResolver.cs" />
     <Compile Include="Tenant.cs" />
     <Compile Include="TenantCoreMiddleware.cs" />
+    <Compile Include="TenantResolverBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

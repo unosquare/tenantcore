@@ -8,17 +8,15 @@
     /// Tenant Resolver class using request's hostname as key to find
     /// a possible Tenant
     /// </summary>
-    public class HostNameTenantResolver : ITenantResolver
+    public class HostNameTenantResolver : TenantResolverBase, ITenantResolver
     {
-        protected List<ITenant> Tenants = new List<ITenant>();
-
         /// <summary>
-        /// Insttances a new Resolver without tenants
+        /// Instances a new Resolver without tenants
         /// </summary>
         /// <param name="databaseIdentifier">The Database Identifier</param>
-        public HostNameTenantResolver(string databaseIdentifier = null)
+        public HostNameTenantResolver(string databaseIdentifier = null) : base(databaseIdentifier)
         {
-            DatabaseIdentifier = databaseIdentifier;
+
         }
 
         /// <summary>
@@ -27,9 +25,8 @@
         /// <param name="tenants">The list of tenants</param>
         /// <param name="databaseIdentifier">The Database Identifier</param>
         public HostNameTenantResolver(IEnumerable<ITenant> tenants, string databaseIdentifier = null)
+            : base(tenants, databaseIdentifier)
         {
-            Tenants.AddRange(tenants);
-            DatabaseIdentifier = databaseIdentifier;
         }
 
         /// <summary>
@@ -43,28 +40,5 @@
 
             return Tenants.FirstOrDefault(x => x.Domain == host);
         }
-
-        /// <summary>
-        /// Adds a new tenant to resolver
-        /// </summary>
-        /// <param name="tenant">The tenant instance</param>
-        public void Add(ITenant tenant)
-        {
-            Tenants.Add(tenant);
-        }
-
-        /// <summary>
-        /// Retrieves the Tenants in the resolver
-        /// </summary>
-        /// <returns>The Tenant's list</returns>
-        public List<ITenant> GetTenants()
-        {
-            return Tenants;
-        }
-
-        /// <summary>
-        /// Retrieves the Database Identifier
-        /// </summary>
-        public string DatabaseIdentifier { get; private set; }
     }
 }
