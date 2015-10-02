@@ -12,6 +12,9 @@
     /// </summary>
     public class RouteTenantResolver : TenantResolverBase, ITenantResolver
     {
+        /// <summary>
+        /// Defines the RouteName identifier
+        /// </summary>
         public const string RouteName = "tenant";
 
         /// <summary>

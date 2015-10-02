@@ -19,6 +19,9 @@
         /// </summary>
         protected ITenantResolver Resolver;
 
+        /// <summary>
+        /// The Callback
+        /// </summary>
         protected Func<ITenant, bool> Callback;
 
         /// <summary>

@@ -7,6 +7,9 @@
     /// </summary>
     public abstract class TenantResolverBase
     {
+        /// <summary>
+        /// The Tenants repository
+        /// </summary>
         protected List<ITenant> Tenants = new List<ITenant>();
 
         /// <summary>
