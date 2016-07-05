@@ -5,7 +5,7 @@
     using System;
     using System.Data.Entity;
     using System.Linq;
-    using System.Linq.Dynamic;
+    using System.Linq.Dynamic.Core;
     using System.Web;
 
     /// <summary>
@@ -26,12 +26,12 @@
         {
             if (app == null)
             {
-                throw new ArgumentNullException("app");
+                throw new ArgumentNullException(nameof(app));
             }
 
             if (resolver == null)
             {
-                throw new ArgumentNullException("resolver");
+                throw new ArgumentNullException(nameof(resolver));
             }
 
             return app.Use(typeof (TenantCoreMiddleware), resolver, callback);
@@ -47,7 +47,7 @@
         {
             if (context == null)
             {
-                throw new ArgumentNullException("context");
+                throw new ArgumentNullException(nameof(context));
             }
 
             return context.GetOwinContext().GetCurrentTenant();
@@ -63,7 +63,7 @@
         {
             if (context == null)
             {
-                throw new ArgumentNullException("context");
+                throw new ArgumentNullException(nameof(context));
             }
 
             return context.Get<ITenant>(TenantCoreMiddleware.OwinPropertyName);
@@ -81,7 +81,7 @@
         {
             if (context == null)
             {
-                throw new ArgumentNullException("context");
+                throw new ArgumentNullException(nameof(context));
             }
 
             return context.GetOwinContext().GetDbContext<T>();
@@ -99,7 +99,7 @@
         {
             if (context == null)
             {
-                throw new ArgumentNullException("context");
+                throw new ArgumentNullException(nameof(context));
             }
 
             var tenant = context.GetCurrentTenant();
@@ -124,12 +124,12 @@
         {
             if (context == null)
             {
-                throw new ArgumentNullException("context");
+                throw new ArgumentNullException(nameof(context));
             }
 
             if (httpContext == null)
             {
-                throw new ArgumentNullException("httpContext");
+                throw new ArgumentNullException(nameof(httpContext));
             }
 
             var tenant = httpContext.GetCurrentTenant();
@@ -139,7 +139,7 @@
                 return context.Set<T>();
             }
 
-            return context.Set<T>().Where(String.Format("{0} = @0", tenant.Resolver.DatabaseIdentifier), tenant.Id);
+            return context.Set<T>().Where($"{tenant.Resolver.DatabaseIdentifier} = @0", tenant.Id);
         }
     }
 }

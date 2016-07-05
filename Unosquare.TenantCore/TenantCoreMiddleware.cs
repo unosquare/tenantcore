@@ -50,14 +50,11 @@
             {
                 tenant.Resolver = Resolver;
 
-                if (Callback != null)
-                {
-                    var callBackResult = Callback(tenant);
+                var callBackResult = Callback?.Invoke(tenant);
 
-                    if (callBackResult == false)
-                    {
-                        // Do something maybe
-                    }
+                if (callBackResult == false)
+                {
+                    // Do something maybe
                 }
             }
 
