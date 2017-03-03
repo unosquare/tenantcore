@@ -1,0 +1,495 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Unosquare.TenantCore
+  name: Unosquare.TenantCore
+  href: api/Unosquare.TenantCore.html
+  commentId: N:Unosquare.TenantCore
+  fullName: Unosquare.TenantCore
+  nameWithType: Unosquare.TenantCore
+- uid: Unosquare.TenantCore.HostNameTenantResolver
+  name: HostNameTenantResolver
+  href: api/Unosquare.TenantCore.HostNameTenantResolver.html
+  commentId: T:Unosquare.TenantCore.HostNameTenantResolver
+  fullName: Unosquare.TenantCore.HostNameTenantResolver
+  nameWithType: HostNameTenantResolver
+- uid: Unosquare.TenantCore.HostNameTenantResolver.#ctor(System.Collections.Generic.IEnumerable{Unosquare.TenantCore.ITenant},System.String)
+  name: HostNameTenantResolver(IEnumerable<ITenant>, String)
+  href: api/Unosquare.TenantCore.HostNameTenantResolver.html#Unosquare_TenantCore_HostNameTenantResolver__ctor_System_Collections_Generic_IEnumerable_Unosquare_TenantCore_ITenant__System_String_
+  commentId: M:Unosquare.TenantCore.HostNameTenantResolver.#ctor(System.Collections.Generic.IEnumerable{Unosquare.TenantCore.ITenant},System.String)
+  name.vb: HostNameTenantResolver(IEnumerable(Of ITenant), String)
+  fullName: Unosquare.TenantCore.HostNameTenantResolver.HostNameTenantResolver(System.Collections.Generic.IEnumerable<Unosquare.TenantCore.ITenant>, System.String)
+  fullName.vb: Unosquare.TenantCore.HostNameTenantResolver.HostNameTenantResolver(System.Collections.Generic.IEnumerable(Of Unosquare.TenantCore.ITenant), System.String)
+  nameWithType: HostNameTenantResolver.HostNameTenantResolver(IEnumerable<ITenant>, String)
+  nameWithType.vb: HostNameTenantResolver.HostNameTenantResolver(IEnumerable(Of ITenant), String)
+- uid: Unosquare.TenantCore.HostNameTenantResolver.#ctor(System.String)
+  name: HostNameTenantResolver(String)
+  href: api/Unosquare.TenantCore.HostNameTenantResolver.html#Unosquare_TenantCore_HostNameTenantResolver__ctor_System_String_
+  commentId: M:Unosquare.TenantCore.HostNameTenantResolver.#ctor(System.String)
+  fullName: Unosquare.TenantCore.HostNameTenantResolver.HostNameTenantResolver(System.String)
+  nameWithType: HostNameTenantResolver.HostNameTenantResolver(String)
+- uid: Unosquare.TenantCore.HostNameTenantResolver.#ctor*
+  name: HostNameTenantResolver
+  href: api/Unosquare.TenantCore.HostNameTenantResolver.html#Unosquare_TenantCore_HostNameTenantResolver__ctor_
+  commentId: Overload:Unosquare.TenantCore.HostNameTenantResolver.#ctor
+  fullName: Unosquare.TenantCore.HostNameTenantResolver.HostNameTenantResolver
+  nameWithType: HostNameTenantResolver.HostNameTenantResolver
+- uid: Unosquare.TenantCore.HostNameTenantResolver.Resolve(IOwinRequest)
+  name: Resolve(IOwinRequest)
+  href: api/Unosquare.TenantCore.HostNameTenantResolver.html#Unosquare_TenantCore_HostNameTenantResolver_Resolve_IOwinRequest_
+  commentId: M:Unosquare.TenantCore.HostNameTenantResolver.Resolve(IOwinRequest)
+  fullName: Unosquare.TenantCore.HostNameTenantResolver.Resolve(IOwinRequest)
+  nameWithType: HostNameTenantResolver.Resolve(IOwinRequest)
+- uid: Unosquare.TenantCore.HostNameTenantResolver.Resolve*
+  name: Resolve
+  href: api/Unosquare.TenantCore.HostNameTenantResolver.html#Unosquare_TenantCore_HostNameTenantResolver_Resolve_
+  commentId: Overload:Unosquare.TenantCore.HostNameTenantResolver.Resolve
+  fullName: Unosquare.TenantCore.HostNameTenantResolver.Resolve
+  nameWithType: HostNameTenantResolver.Resolve
+- uid: Unosquare.TenantCore.ITenant
+  name: ITenant
+  href: api/Unosquare.TenantCore.ITenant.html
+  commentId: T:Unosquare.TenantCore.ITenant
+  fullName: Unosquare.TenantCore.ITenant
+  nameWithType: ITenant
+- uid: Unosquare.TenantCore.ITenant.ConnectionString
+  name: ConnectionString
+  href: api/Unosquare.TenantCore.ITenant.html#Unosquare_TenantCore_ITenant_ConnectionString
+  commentId: P:Unosquare.TenantCore.ITenant.ConnectionString
+  fullName: Unosquare.TenantCore.ITenant.ConnectionString
+  nameWithType: ITenant.ConnectionString
+- uid: Unosquare.TenantCore.ITenant.ConnectionString*
+  name: ConnectionString
+  href: api/Unosquare.TenantCore.ITenant.html#Unosquare_TenantCore_ITenant_ConnectionString_
+  commentId: Overload:Unosquare.TenantCore.ITenant.ConnectionString
+  fullName: Unosquare.TenantCore.ITenant.ConnectionString
+  nameWithType: ITenant.ConnectionString
+- uid: Unosquare.TenantCore.ITenant.Domain
+  name: Domain
+  href: api/Unosquare.TenantCore.ITenant.html#Unosquare_TenantCore_ITenant_Domain
+  commentId: P:Unosquare.TenantCore.ITenant.Domain
+  fullName: Unosquare.TenantCore.ITenant.Domain
+  nameWithType: ITenant.Domain
+- uid: Unosquare.TenantCore.ITenant.Domain*
+  name: Domain
+  href: api/Unosquare.TenantCore.ITenant.html#Unosquare_TenantCore_ITenant_Domain_
+  commentId: Overload:Unosquare.TenantCore.ITenant.Domain
+  fullName: Unosquare.TenantCore.ITenant.Domain
+  nameWithType: ITenant.Domain
+- uid: Unosquare.TenantCore.ITenant.Id
+  name: Id
+  href: api/Unosquare.TenantCore.ITenant.html#Unosquare_TenantCore_ITenant_Id
+  commentId: P:Unosquare.TenantCore.ITenant.Id
+  fullName: Unosquare.TenantCore.ITenant.Id
+  nameWithType: ITenant.Id
+- uid: Unosquare.TenantCore.ITenant.Id*
+  name: Id
+  href: api/Unosquare.TenantCore.ITenant.html#Unosquare_TenantCore_ITenant_Id_
+  commentId: Overload:Unosquare.TenantCore.ITenant.Id
+  fullName: Unosquare.TenantCore.ITenant.Id
+  nameWithType: ITenant.Id
+- uid: Unosquare.TenantCore.ITenant.Name
+  name: Name
+  href: api/Unosquare.TenantCore.ITenant.html#Unosquare_TenantCore_ITenant_Name
+  commentId: P:Unosquare.TenantCore.ITenant.Name
+  fullName: Unosquare.TenantCore.ITenant.Name
+  nameWithType: ITenant.Name
+- uid: Unosquare.TenantCore.ITenant.Name*
+  name: Name
+  href: api/Unosquare.TenantCore.ITenant.html#Unosquare_TenantCore_ITenant_Name_
+  commentId: Overload:Unosquare.TenantCore.ITenant.Name
+  fullName: Unosquare.TenantCore.ITenant.Name
+  nameWithType: ITenant.Name
+- uid: Unosquare.TenantCore.ITenant.Properties
+  name: Properties
+  href: api/Unosquare.TenantCore.ITenant.html#Unosquare_TenantCore_ITenant_Properties
+  commentId: P:Unosquare.TenantCore.ITenant.Properties
+  fullName: Unosquare.TenantCore.ITenant.Properties
+  nameWithType: ITenant.Properties
+- uid: Unosquare.TenantCore.ITenant.Properties*
+  name: Properties
+  href: api/Unosquare.TenantCore.ITenant.html#Unosquare_TenantCore_ITenant_Properties_
+  commentId: Overload:Unosquare.TenantCore.ITenant.Properties
+  fullName: Unosquare.TenantCore.ITenant.Properties
+  nameWithType: ITenant.Properties
+- uid: Unosquare.TenantCore.ITenant.Resolver
+  name: Resolver
+  href: api/Unosquare.TenantCore.ITenant.html#Unosquare_TenantCore_ITenant_Resolver
+  commentId: P:Unosquare.TenantCore.ITenant.Resolver
+  fullName: Unosquare.TenantCore.ITenant.Resolver
+  nameWithType: ITenant.Resolver
+- uid: Unosquare.TenantCore.ITenant.Resolver*
+  name: Resolver
+  href: api/Unosquare.TenantCore.ITenant.html#Unosquare_TenantCore_ITenant_Resolver_
+  commentId: Overload:Unosquare.TenantCore.ITenant.Resolver
+  fullName: Unosquare.TenantCore.ITenant.Resolver
+  nameWithType: ITenant.Resolver
+- uid: Unosquare.TenantCore.ITenantResolver
+  name: ITenantResolver
+  href: api/Unosquare.TenantCore.ITenantResolver.html
+  commentId: T:Unosquare.TenantCore.ITenantResolver
+  fullName: Unosquare.TenantCore.ITenantResolver
+  nameWithType: ITenantResolver
+- uid: Unosquare.TenantCore.ITenantResolver.DatabaseIdentifier
+  name: DatabaseIdentifier
+  href: api/Unosquare.TenantCore.ITenantResolver.html#Unosquare_TenantCore_ITenantResolver_DatabaseIdentifier
+  commentId: P:Unosquare.TenantCore.ITenantResolver.DatabaseIdentifier
+  fullName: Unosquare.TenantCore.ITenantResolver.DatabaseIdentifier
+  nameWithType: ITenantResolver.DatabaseIdentifier
+- uid: Unosquare.TenantCore.ITenantResolver.DatabaseIdentifier*
+  name: DatabaseIdentifier
+  href: api/Unosquare.TenantCore.ITenantResolver.html#Unosquare_TenantCore_ITenantResolver_DatabaseIdentifier_
+  commentId: Overload:Unosquare.TenantCore.ITenantResolver.DatabaseIdentifier
+  fullName: Unosquare.TenantCore.ITenantResolver.DatabaseIdentifier
+  nameWithType: ITenantResolver.DatabaseIdentifier
+- uid: Unosquare.TenantCore.ITenantResolver.GetTenants
+  name: GetTenants()
+  href: api/Unosquare.TenantCore.ITenantResolver.html#Unosquare_TenantCore_ITenantResolver_GetTenants
+  commentId: M:Unosquare.TenantCore.ITenantResolver.GetTenants
+  fullName: Unosquare.TenantCore.ITenantResolver.GetTenants()
+  nameWithType: ITenantResolver.GetTenants()
+- uid: Unosquare.TenantCore.ITenantResolver.GetTenants*
+  name: GetTenants
+  href: api/Unosquare.TenantCore.ITenantResolver.html#Unosquare_TenantCore_ITenantResolver_GetTenants_
+  commentId: Overload:Unosquare.TenantCore.ITenantResolver.GetTenants
+  fullName: Unosquare.TenantCore.ITenantResolver.GetTenants
+  nameWithType: ITenantResolver.GetTenants
+- uid: Unosquare.TenantCore.ITenantResolver.Resolve(IOwinRequest)
+  name: Resolve(IOwinRequest)
+  href: api/Unosquare.TenantCore.ITenantResolver.html#Unosquare_TenantCore_ITenantResolver_Resolve_IOwinRequest_
+  commentId: M:Unosquare.TenantCore.ITenantResolver.Resolve(IOwinRequest)
+  fullName: Unosquare.TenantCore.ITenantResolver.Resolve(IOwinRequest)
+  nameWithType: ITenantResolver.Resolve(IOwinRequest)
+- uid: Unosquare.TenantCore.ITenantResolver.Resolve*
+  name: Resolve
+  href: api/Unosquare.TenantCore.ITenantResolver.html#Unosquare_TenantCore_ITenantResolver_Resolve_
+  commentId: Overload:Unosquare.TenantCore.ITenantResolver.Resolve
+  fullName: Unosquare.TenantCore.ITenantResolver.Resolve
+  nameWithType: ITenantResolver.Resolve
+- uid: Unosquare.TenantCore.OwinExtensions
+  name: OwinExtensions
+  href: api/Unosquare.TenantCore.OwinExtensions.html
+  commentId: T:Unosquare.TenantCore.OwinExtensions
+  fullName: Unosquare.TenantCore.OwinExtensions
+  nameWithType: OwinExtensions
+- uid: Unosquare.TenantCore.OwinExtensions.GetCurrentTenant(HttpContext)
+  name: GetCurrentTenant(HttpContext)
+  href: api/Unosquare.TenantCore.OwinExtensions.html#Unosquare_TenantCore_OwinExtensions_GetCurrentTenant_HttpContext_
+  commentId: M:Unosquare.TenantCore.OwinExtensions.GetCurrentTenant(HttpContext)
+  fullName: Unosquare.TenantCore.OwinExtensions.GetCurrentTenant(HttpContext)
+  nameWithType: OwinExtensions.GetCurrentTenant(HttpContext)
+- uid: Unosquare.TenantCore.OwinExtensions.GetCurrentTenant(IOwinContext)
+  name: GetCurrentTenant(IOwinContext)
+  href: api/Unosquare.TenantCore.OwinExtensions.html#Unosquare_TenantCore_OwinExtensions_GetCurrentTenant_IOwinContext_
+  commentId: M:Unosquare.TenantCore.OwinExtensions.GetCurrentTenant(IOwinContext)
+  fullName: Unosquare.TenantCore.OwinExtensions.GetCurrentTenant(IOwinContext)
+  nameWithType: OwinExtensions.GetCurrentTenant(IOwinContext)
+- uid: Unosquare.TenantCore.OwinExtensions.GetCurrentTenant*
+  name: GetCurrentTenant
+  href: api/Unosquare.TenantCore.OwinExtensions.html#Unosquare_TenantCore_OwinExtensions_GetCurrentTenant_
+  commentId: Overload:Unosquare.TenantCore.OwinExtensions.GetCurrentTenant
+  fullName: Unosquare.TenantCore.OwinExtensions.GetCurrentTenant
+  nameWithType: OwinExtensions.GetCurrentTenant
+- uid: Unosquare.TenantCore.OwinExtensions.GetDbContext*
+  name: GetDbContext
+  href: api/Unosquare.TenantCore.OwinExtensions.html#Unosquare_TenantCore_OwinExtensions_GetDbContext_
+  commentId: Overload:Unosquare.TenantCore.OwinExtensions.GetDbContext
+  fullName: Unosquare.TenantCore.OwinExtensions.GetDbContext
+  nameWithType: OwinExtensions.GetDbContext
+- uid: Unosquare.TenantCore.OwinExtensions.GetDbContext``1(HttpContext)
+  name: GetDbContext<T>(HttpContext)
+  href: api/Unosquare.TenantCore.OwinExtensions.html#Unosquare_TenantCore_OwinExtensions_GetDbContext__1_HttpContext_
+  commentId: M:Unosquare.TenantCore.OwinExtensions.GetDbContext``1(HttpContext)
+  name.vb: GetDbContext(Of T)(HttpContext)
+  fullName: Unosquare.TenantCore.OwinExtensions.GetDbContext<T>(HttpContext)
+  fullName.vb: Unosquare.TenantCore.OwinExtensions.GetDbContext(Of T)(HttpContext)
+  nameWithType: OwinExtensions.GetDbContext<T>(HttpContext)
+  nameWithType.vb: OwinExtensions.GetDbContext(Of T)(HttpContext)
+- uid: Unosquare.TenantCore.OwinExtensions.GetDbContext``1(IOwinContext)
+  name: GetDbContext<T>(IOwinContext)
+  href: api/Unosquare.TenantCore.OwinExtensions.html#Unosquare_TenantCore_OwinExtensions_GetDbContext__1_IOwinContext_
+  commentId: M:Unosquare.TenantCore.OwinExtensions.GetDbContext``1(IOwinContext)
+  name.vb: GetDbContext(Of T)(IOwinContext)
+  fullName: Unosquare.TenantCore.OwinExtensions.GetDbContext<T>(IOwinContext)
+  fullName.vb: Unosquare.TenantCore.OwinExtensions.GetDbContext(Of T)(IOwinContext)
+  nameWithType: OwinExtensions.GetDbContext<T>(IOwinContext)
+  nameWithType.vb: OwinExtensions.GetDbContext(Of T)(IOwinContext)
+- uid: Unosquare.TenantCore.OwinExtensions.GetDbSet*
+  name: GetDbSet
+  href: api/Unosquare.TenantCore.OwinExtensions.html#Unosquare_TenantCore_OwinExtensions_GetDbSet_
+  commentId: Overload:Unosquare.TenantCore.OwinExtensions.GetDbSet
+  fullName: Unosquare.TenantCore.OwinExtensions.GetDbSet
+  nameWithType: OwinExtensions.GetDbSet
+- uid: Unosquare.TenantCore.OwinExtensions.GetDbSet``1(DbContext,HttpContext)
+  name: GetDbSet<T>(DbContext, HttpContext)
+  href: api/Unosquare.TenantCore.OwinExtensions.html#Unosquare_TenantCore_OwinExtensions_GetDbSet__1_DbContext_HttpContext_
+  commentId: M:Unosquare.TenantCore.OwinExtensions.GetDbSet``1(DbContext,HttpContext)
+  name.vb: GetDbSet(Of T)(DbContext, HttpContext)
+  fullName: Unosquare.TenantCore.OwinExtensions.GetDbSet<T>(DbContext, HttpContext)
+  fullName.vb: Unosquare.TenantCore.OwinExtensions.GetDbSet(Of T)(DbContext, HttpContext)
+  nameWithType: OwinExtensions.GetDbSet<T>(DbContext, HttpContext)
+  nameWithType.vb: OwinExtensions.GetDbSet(Of T)(DbContext, HttpContext)
+- uid: Unosquare.TenantCore.OwinExtensions.UseTenantCore(IAppBuilder,Unosquare.TenantCore.ITenantResolver,System.Func{Unosquare.TenantCore.ITenant,System.Boolean})
+  name: UseTenantCore(IAppBuilder, ITenantResolver, Func<ITenant, Boolean>)
+  href: api/Unosquare.TenantCore.OwinExtensions.html#Unosquare_TenantCore_OwinExtensions_UseTenantCore_IAppBuilder_Unosquare_TenantCore_ITenantResolver_System_Func_Unosquare_TenantCore_ITenant_System_Boolean__
+  commentId: M:Unosquare.TenantCore.OwinExtensions.UseTenantCore(IAppBuilder,Unosquare.TenantCore.ITenantResolver,System.Func{Unosquare.TenantCore.ITenant,System.Boolean})
+  name.vb: UseTenantCore(IAppBuilder, ITenantResolver, Func(Of ITenant, Boolean))
+  fullName: Unosquare.TenantCore.OwinExtensions.UseTenantCore(IAppBuilder, Unosquare.TenantCore.ITenantResolver, System.Func<Unosquare.TenantCore.ITenant, System.Boolean>)
+  fullName.vb: Unosquare.TenantCore.OwinExtensions.UseTenantCore(IAppBuilder, Unosquare.TenantCore.ITenantResolver, System.Func(Of Unosquare.TenantCore.ITenant, System.Boolean))
+  nameWithType: OwinExtensions.UseTenantCore(IAppBuilder, ITenantResolver, Func<ITenant, Boolean>)
+  nameWithType.vb: OwinExtensions.UseTenantCore(IAppBuilder, ITenantResolver, Func(Of ITenant, Boolean))
+- uid: Unosquare.TenantCore.OwinExtensions.UseTenantCore*
+  name: UseTenantCore
+  href: api/Unosquare.TenantCore.OwinExtensions.html#Unosquare_TenantCore_OwinExtensions_UseTenantCore_
+  commentId: Overload:Unosquare.TenantCore.OwinExtensions.UseTenantCore
+  fullName: Unosquare.TenantCore.OwinExtensions.UseTenantCore
+  nameWithType: OwinExtensions.UseTenantCore
+- uid: Unosquare.TenantCore.RouteTenantResolver
+  name: RouteTenantResolver
+  href: api/Unosquare.TenantCore.RouteTenantResolver.html
+  commentId: T:Unosquare.TenantCore.RouteTenantResolver
+  fullName: Unosquare.TenantCore.RouteTenantResolver
+  nameWithType: RouteTenantResolver
+- uid: Unosquare.TenantCore.RouteTenantResolver.#ctor(System.Collections.Generic.IEnumerable{Unosquare.TenantCore.ITenant},System.String)
+  name: RouteTenantResolver(IEnumerable<ITenant>, String)
+  href: api/Unosquare.TenantCore.RouteTenantResolver.html#Unosquare_TenantCore_RouteTenantResolver__ctor_System_Collections_Generic_IEnumerable_Unosquare_TenantCore_ITenant__System_String_
+  commentId: M:Unosquare.TenantCore.RouteTenantResolver.#ctor(System.Collections.Generic.IEnumerable{Unosquare.TenantCore.ITenant},System.String)
+  name.vb: RouteTenantResolver(IEnumerable(Of ITenant), String)
+  fullName: Unosquare.TenantCore.RouteTenantResolver.RouteTenantResolver(System.Collections.Generic.IEnumerable<Unosquare.TenantCore.ITenant>, System.String)
+  fullName.vb: Unosquare.TenantCore.RouteTenantResolver.RouteTenantResolver(System.Collections.Generic.IEnumerable(Of Unosquare.TenantCore.ITenant), System.String)
+  nameWithType: RouteTenantResolver.RouteTenantResolver(IEnumerable<ITenant>, String)
+  nameWithType.vb: RouteTenantResolver.RouteTenantResolver(IEnumerable(Of ITenant), String)
+- uid: Unosquare.TenantCore.RouteTenantResolver.#ctor*
+  name: RouteTenantResolver
+  href: api/Unosquare.TenantCore.RouteTenantResolver.html#Unosquare_TenantCore_RouteTenantResolver__ctor_
+  commentId: Overload:Unosquare.TenantCore.RouteTenantResolver.#ctor
+  fullName: Unosquare.TenantCore.RouteTenantResolver.RouteTenantResolver
+  nameWithType: RouteTenantResolver.RouteTenantResolver
+- uid: Unosquare.TenantCore.RouteTenantResolver.Resolve(IOwinRequest)
+  name: Resolve(IOwinRequest)
+  href: api/Unosquare.TenantCore.RouteTenantResolver.html#Unosquare_TenantCore_RouteTenantResolver_Resolve_IOwinRequest_
+  commentId: M:Unosquare.TenantCore.RouteTenantResolver.Resolve(IOwinRequest)
+  fullName: Unosquare.TenantCore.RouteTenantResolver.Resolve(IOwinRequest)
+  nameWithType: RouteTenantResolver.Resolve(IOwinRequest)
+- uid: Unosquare.TenantCore.RouteTenantResolver.Resolve*
+  name: Resolve
+  href: api/Unosquare.TenantCore.RouteTenantResolver.html#Unosquare_TenantCore_RouteTenantResolver_Resolve_
+  commentId: Overload:Unosquare.TenantCore.RouteTenantResolver.Resolve
+  fullName: Unosquare.TenantCore.RouteTenantResolver.Resolve
+  nameWithType: RouteTenantResolver.Resolve
+- uid: Unosquare.TenantCore.RouteTenantResolver.RouteName
+  name: RouteName
+  href: api/Unosquare.TenantCore.RouteTenantResolver.html#Unosquare_TenantCore_RouteTenantResolver_RouteName
+  commentId: F:Unosquare.TenantCore.RouteTenantResolver.RouteName
+  fullName: Unosquare.TenantCore.RouteTenantResolver.RouteName
+  nameWithType: RouteTenantResolver.RouteName
+- uid: Unosquare.TenantCore.Tenant
+  name: Tenant
+  href: api/Unosquare.TenantCore.Tenant.html
+  commentId: T:Unosquare.TenantCore.Tenant
+  fullName: Unosquare.TenantCore.Tenant
+  nameWithType: Tenant
+- uid: Unosquare.TenantCore.Tenant.#ctor(System.Int64,System.String,System.String,System.String)
+  name: Tenant(Int64, String, String, String)
+  href: api/Unosquare.TenantCore.Tenant.html#Unosquare_TenantCore_Tenant__ctor_System_Int64_System_String_System_String_System_String_
+  commentId: M:Unosquare.TenantCore.Tenant.#ctor(System.Int64,System.String,System.String,System.String)
+  fullName: Unosquare.TenantCore.Tenant.Tenant(System.Int64, System.String, System.String, System.String)
+  nameWithType: Tenant.Tenant(Int64, String, String, String)
+- uid: Unosquare.TenantCore.Tenant.#ctor*
+  name: Tenant
+  href: api/Unosquare.TenantCore.Tenant.html#Unosquare_TenantCore_Tenant__ctor_
+  commentId: Overload:Unosquare.TenantCore.Tenant.#ctor
+  fullName: Unosquare.TenantCore.Tenant.Tenant
+  nameWithType: Tenant.Tenant
+- uid: Unosquare.TenantCore.Tenant.ConnectionString
+  name: ConnectionString
+  href: api/Unosquare.TenantCore.Tenant.html#Unosquare_TenantCore_Tenant_ConnectionString
+  commentId: P:Unosquare.TenantCore.Tenant.ConnectionString
+  fullName: Unosquare.TenantCore.Tenant.ConnectionString
+  nameWithType: Tenant.ConnectionString
+- uid: Unosquare.TenantCore.Tenant.ConnectionString*
+  name: ConnectionString
+  href: api/Unosquare.TenantCore.Tenant.html#Unosquare_TenantCore_Tenant_ConnectionString_
+  commentId: Overload:Unosquare.TenantCore.Tenant.ConnectionString
+  fullName: Unosquare.TenantCore.Tenant.ConnectionString
+  nameWithType: Tenant.ConnectionString
+- uid: Unosquare.TenantCore.Tenant.Domain
+  name: Domain
+  href: api/Unosquare.TenantCore.Tenant.html#Unosquare_TenantCore_Tenant_Domain
+  commentId: P:Unosquare.TenantCore.Tenant.Domain
+  fullName: Unosquare.TenantCore.Tenant.Domain
+  nameWithType: Tenant.Domain
+- uid: Unosquare.TenantCore.Tenant.Domain*
+  name: Domain
+  href: api/Unosquare.TenantCore.Tenant.html#Unosquare_TenantCore_Tenant_Domain_
+  commentId: Overload:Unosquare.TenantCore.Tenant.Domain
+  fullName: Unosquare.TenantCore.Tenant.Domain
+  nameWithType: Tenant.Domain
+- uid: Unosquare.TenantCore.Tenant.Id
+  name: Id
+  href: api/Unosquare.TenantCore.Tenant.html#Unosquare_TenantCore_Tenant_Id
+  commentId: P:Unosquare.TenantCore.Tenant.Id
+  fullName: Unosquare.TenantCore.Tenant.Id
+  nameWithType: Tenant.Id
+- uid: Unosquare.TenantCore.Tenant.Id*
+  name: Id
+  href: api/Unosquare.TenantCore.Tenant.html#Unosquare_TenantCore_Tenant_Id_
+  commentId: Overload:Unosquare.TenantCore.Tenant.Id
+  fullName: Unosquare.TenantCore.Tenant.Id
+  nameWithType: Tenant.Id
+- uid: Unosquare.TenantCore.Tenant.Name
+  name: Name
+  href: api/Unosquare.TenantCore.Tenant.html#Unosquare_TenantCore_Tenant_Name
+  commentId: P:Unosquare.TenantCore.Tenant.Name
+  fullName: Unosquare.TenantCore.Tenant.Name
+  nameWithType: Tenant.Name
+- uid: Unosquare.TenantCore.Tenant.Name*
+  name: Name
+  href: api/Unosquare.TenantCore.Tenant.html#Unosquare_TenantCore_Tenant_Name_
+  commentId: Overload:Unosquare.TenantCore.Tenant.Name
+  fullName: Unosquare.TenantCore.Tenant.Name
+  nameWithType: Tenant.Name
+- uid: Unosquare.TenantCore.Tenant.Properties
+  name: Properties
+  href: api/Unosquare.TenantCore.Tenant.html#Unosquare_TenantCore_Tenant_Properties
+  commentId: P:Unosquare.TenantCore.Tenant.Properties
+  fullName: Unosquare.TenantCore.Tenant.Properties
+  nameWithType: Tenant.Properties
+- uid: Unosquare.TenantCore.Tenant.Properties*
+  name: Properties
+  href: api/Unosquare.TenantCore.Tenant.html#Unosquare_TenantCore_Tenant_Properties_
+  commentId: Overload:Unosquare.TenantCore.Tenant.Properties
+  fullName: Unosquare.TenantCore.Tenant.Properties
+  nameWithType: Tenant.Properties
+- uid: Unosquare.TenantCore.Tenant.Resolver
+  name: Resolver
+  href: api/Unosquare.TenantCore.Tenant.html#Unosquare_TenantCore_Tenant_Resolver
+  commentId: P:Unosquare.TenantCore.Tenant.Resolver
+  fullName: Unosquare.TenantCore.Tenant.Resolver
+  nameWithType: Tenant.Resolver
+- uid: Unosquare.TenantCore.Tenant.Resolver*
+  name: Resolver
+  href: api/Unosquare.TenantCore.Tenant.html#Unosquare_TenantCore_Tenant_Resolver_
+  commentId: Overload:Unosquare.TenantCore.Tenant.Resolver
+  fullName: Unosquare.TenantCore.Tenant.Resolver
+  nameWithType: Tenant.Resolver
+- uid: Unosquare.TenantCore.TenantCoreMiddleware
+  name: TenantCoreMiddleware
+  href: api/Unosquare.TenantCore.TenantCoreMiddleware.html
+  commentId: T:Unosquare.TenantCore.TenantCoreMiddleware
+  fullName: Unosquare.TenantCore.TenantCoreMiddleware
+  nameWithType: TenantCoreMiddleware
+- uid: Unosquare.TenantCore.TenantCoreMiddleware.#ctor(OwinMiddleware,Unosquare.TenantCore.ITenantResolver,System.Func{Unosquare.TenantCore.ITenant,System.Boolean})
+  name: TenantCoreMiddleware(OwinMiddleware, ITenantResolver, Func<ITenant, Boolean>)
+  href: api/Unosquare.TenantCore.TenantCoreMiddleware.html#Unosquare_TenantCore_TenantCoreMiddleware__ctor_OwinMiddleware_Unosquare_TenantCore_ITenantResolver_System_Func_Unosquare_TenantCore_ITenant_System_Boolean__
+  commentId: M:Unosquare.TenantCore.TenantCoreMiddleware.#ctor(OwinMiddleware,Unosquare.TenantCore.ITenantResolver,System.Func{Unosquare.TenantCore.ITenant,System.Boolean})
+  name.vb: TenantCoreMiddleware(OwinMiddleware, ITenantResolver, Func(Of ITenant, Boolean))
+  fullName: Unosquare.TenantCore.TenantCoreMiddleware.TenantCoreMiddleware(OwinMiddleware, Unosquare.TenantCore.ITenantResolver, System.Func<Unosquare.TenantCore.ITenant, System.Boolean>)
+  fullName.vb: Unosquare.TenantCore.TenantCoreMiddleware.TenantCoreMiddleware(OwinMiddleware, Unosquare.TenantCore.ITenantResolver, System.Func(Of Unosquare.TenantCore.ITenant, System.Boolean))
+  nameWithType: TenantCoreMiddleware.TenantCoreMiddleware(OwinMiddleware, ITenantResolver, Func<ITenant, Boolean>)
+  nameWithType.vb: TenantCoreMiddleware.TenantCoreMiddleware(OwinMiddleware, ITenantResolver, Func(Of ITenant, Boolean))
+- uid: Unosquare.TenantCore.TenantCoreMiddleware.#ctor*
+  name: TenantCoreMiddleware
+  href: api/Unosquare.TenantCore.TenantCoreMiddleware.html#Unosquare_TenantCore_TenantCoreMiddleware__ctor_
+  commentId: Overload:Unosquare.TenantCore.TenantCoreMiddleware.#ctor
+  fullName: Unosquare.TenantCore.TenantCoreMiddleware.TenantCoreMiddleware
+  nameWithType: TenantCoreMiddleware.TenantCoreMiddleware
+- uid: Unosquare.TenantCore.TenantCoreMiddleware.Callback
+  name: Callback
+  href: api/Unosquare.TenantCore.TenantCoreMiddleware.html#Unosquare_TenantCore_TenantCoreMiddleware_Callback
+  commentId: F:Unosquare.TenantCore.TenantCoreMiddleware.Callback
+  fullName: Unosquare.TenantCore.TenantCoreMiddleware.Callback
+  nameWithType: TenantCoreMiddleware.Callback
+- uid: Unosquare.TenantCore.TenantCoreMiddleware.Invoke(IOwinContext)
+  name: Invoke(IOwinContext)
+  href: api/Unosquare.TenantCore.TenantCoreMiddleware.html#Unosquare_TenantCore_TenantCoreMiddleware_Invoke_IOwinContext_
+  commentId: M:Unosquare.TenantCore.TenantCoreMiddleware.Invoke(IOwinContext)
+  fullName: Unosquare.TenantCore.TenantCoreMiddleware.Invoke(IOwinContext)
+  nameWithType: TenantCoreMiddleware.Invoke(IOwinContext)
+- uid: Unosquare.TenantCore.TenantCoreMiddleware.Invoke*
+  name: Invoke
+  href: api/Unosquare.TenantCore.TenantCoreMiddleware.html#Unosquare_TenantCore_TenantCoreMiddleware_Invoke_
+  commentId: Overload:Unosquare.TenantCore.TenantCoreMiddleware.Invoke
+  fullName: Unosquare.TenantCore.TenantCoreMiddleware.Invoke
+  nameWithType: TenantCoreMiddleware.Invoke
+- uid: Unosquare.TenantCore.TenantCoreMiddleware.OwinPropertyName
+  name: OwinPropertyName
+  href: api/Unosquare.TenantCore.TenantCoreMiddleware.html#Unosquare_TenantCore_TenantCoreMiddleware_OwinPropertyName
+  commentId: F:Unosquare.TenantCore.TenantCoreMiddleware.OwinPropertyName
+  fullName: Unosquare.TenantCore.TenantCoreMiddleware.OwinPropertyName
+  nameWithType: TenantCoreMiddleware.OwinPropertyName
+- uid: Unosquare.TenantCore.TenantCoreMiddleware.Resolver
+  name: Resolver
+  href: api/Unosquare.TenantCore.TenantCoreMiddleware.html#Unosquare_TenantCore_TenantCoreMiddleware_Resolver
+  commentId: F:Unosquare.TenantCore.TenantCoreMiddleware.Resolver
+  fullName: Unosquare.TenantCore.TenantCoreMiddleware.Resolver
+  nameWithType: TenantCoreMiddleware.Resolver
+- uid: Unosquare.TenantCore.TenantResolverBase
+  name: TenantResolverBase
+  href: api/Unosquare.TenantCore.TenantResolverBase.html
+  commentId: T:Unosquare.TenantCore.TenantResolverBase
+  fullName: Unosquare.TenantCore.TenantResolverBase
+  nameWithType: TenantResolverBase
+- uid: Unosquare.TenantCore.TenantResolverBase.#ctor(System.Collections.Generic.IEnumerable{Unosquare.TenantCore.ITenant},System.String)
+  name: TenantResolverBase(IEnumerable<ITenant>, String)
+  href: api/Unosquare.TenantCore.TenantResolverBase.html#Unosquare_TenantCore_TenantResolverBase__ctor_System_Collections_Generic_IEnumerable_Unosquare_TenantCore_ITenant__System_String_
+  commentId: M:Unosquare.TenantCore.TenantResolverBase.#ctor(System.Collections.Generic.IEnumerable{Unosquare.TenantCore.ITenant},System.String)
+  name.vb: TenantResolverBase(IEnumerable(Of ITenant), String)
+  fullName: Unosquare.TenantCore.TenantResolverBase.TenantResolverBase(System.Collections.Generic.IEnumerable<Unosquare.TenantCore.ITenant>, System.String)
+  fullName.vb: Unosquare.TenantCore.TenantResolverBase.TenantResolverBase(System.Collections.Generic.IEnumerable(Of Unosquare.TenantCore.ITenant), System.String)
+  nameWithType: TenantResolverBase.TenantResolverBase(IEnumerable<ITenant>, String)
+  nameWithType.vb: TenantResolverBase.TenantResolverBase(IEnumerable(Of ITenant), String)
+- uid: Unosquare.TenantCore.TenantResolverBase.#ctor(System.String)
+  name: TenantResolverBase(String)
+  href: api/Unosquare.TenantCore.TenantResolverBase.html#Unosquare_TenantCore_TenantResolverBase__ctor_System_String_
+  commentId: M:Unosquare.TenantCore.TenantResolverBase.#ctor(System.String)
+  fullName: Unosquare.TenantCore.TenantResolverBase.TenantResolverBase(System.String)
+  nameWithType: TenantResolverBase.TenantResolverBase(String)
+- uid: Unosquare.TenantCore.TenantResolverBase.#ctor*
+  name: TenantResolverBase
+  href: api/Unosquare.TenantCore.TenantResolverBase.html#Unosquare_TenantCore_TenantResolverBase__ctor_
+  commentId: Overload:Unosquare.TenantCore.TenantResolverBase.#ctor
+  fullName: Unosquare.TenantCore.TenantResolverBase.TenantResolverBase
+  nameWithType: TenantResolverBase.TenantResolverBase
+- uid: Unosquare.TenantCore.TenantResolverBase.Add(Unosquare.TenantCore.ITenant)
+  name: Add(ITenant)
+  href: api/Unosquare.TenantCore.TenantResolverBase.html#Unosquare_TenantCore_TenantResolverBase_Add_Unosquare_TenantCore_ITenant_
+  commentId: M:Unosquare.TenantCore.TenantResolverBase.Add(Unosquare.TenantCore.ITenant)
+  fullName: Unosquare.TenantCore.TenantResolverBase.Add(Unosquare.TenantCore.ITenant)
+  nameWithType: TenantResolverBase.Add(ITenant)
+- uid: Unosquare.TenantCore.TenantResolverBase.Add*
+  name: Add
+  href: api/Unosquare.TenantCore.TenantResolverBase.html#Unosquare_TenantCore_TenantResolverBase_Add_
+  commentId: Overload:Unosquare.TenantCore.TenantResolverBase.Add
+  fullName: Unosquare.TenantCore.TenantResolverBase.Add
+  nameWithType: TenantResolverBase.Add
+- uid: Unosquare.TenantCore.TenantResolverBase.DatabaseIdentifier
+  name: DatabaseIdentifier
+  href: api/Unosquare.TenantCore.TenantResolverBase.html#Unosquare_TenantCore_TenantResolverBase_DatabaseIdentifier
+  commentId: P:Unosquare.TenantCore.TenantResolverBase.DatabaseIdentifier
+  fullName: Unosquare.TenantCore.TenantResolverBase.DatabaseIdentifier
+  nameWithType: TenantResolverBase.DatabaseIdentifier
+- uid: Unosquare.TenantCore.TenantResolverBase.DatabaseIdentifier*
+  name: DatabaseIdentifier
+  href: api/Unosquare.TenantCore.TenantResolverBase.html#Unosquare_TenantCore_TenantResolverBase_DatabaseIdentifier_
+  commentId: Overload:Unosquare.TenantCore.TenantResolverBase.DatabaseIdentifier
+  fullName: Unosquare.TenantCore.TenantResolverBase.DatabaseIdentifier
+  nameWithType: TenantResolverBase.DatabaseIdentifier
+- uid: Unosquare.TenantCore.TenantResolverBase.GetTenants
+  name: GetTenants()
+  href: api/Unosquare.TenantCore.TenantResolverBase.html#Unosquare_TenantCore_TenantResolverBase_GetTenants
+  commentId: M:Unosquare.TenantCore.TenantResolverBase.GetTenants
+  fullName: Unosquare.TenantCore.TenantResolverBase.GetTenants()
+  nameWithType: TenantResolverBase.GetTenants()
+- uid: Unosquare.TenantCore.TenantResolverBase.GetTenants*
+  name: GetTenants
+  href: api/Unosquare.TenantCore.TenantResolverBase.html#Unosquare_TenantCore_TenantResolverBase_GetTenants_
+  commentId: Overload:Unosquare.TenantCore.TenantResolverBase.GetTenants
+  fullName: Unosquare.TenantCore.TenantResolverBase.GetTenants
+  nameWithType: TenantResolverBase.GetTenants
+- uid: Unosquare.TenantCore.TenantResolverBase.Tenants
+  name: Tenants
+  href: api/Unosquare.TenantCore.TenantResolverBase.html#Unosquare_TenantCore_TenantResolverBase_Tenants
+  commentId: F:Unosquare.TenantCore.TenantResolverBase.Tenants
+  fullName: Unosquare.TenantCore.TenantResolverBase.Tenants
+  nameWithType: TenantResolverBase.Tenants

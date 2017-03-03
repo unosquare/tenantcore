@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>TenantCore | TenantCore </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="TenantCore | TenantCore ">
+    <meta name="generator" content="docfx 2.12.1.0">
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:rel" content="">
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+              
+              <p><a href="http://badge.fury.io/nu/tenantcore"><img src="https://badge.fury.io/nu/tenantcore.svg" alt="NuGet version"></a>
+<a href="https://travis-ci.org/unosquare/tenantcore"><img src="https://travis-ci.org/unosquare/tenantcore.svg?branch=master" alt="Build Status"></a>
+<a href="https://github.com/igrigorik/ga-beacon"><img src="https://ga-beacon.appspot.com/UA-8535255-2/unosquare/tenantcore/" alt="Analytics"></a></p>
+<h1 id="tenantcore">TenantCore</h1>
+<p>TenantCore is an OWIN Middleware that it can help to resolve tenants, a multitenancy middleware, by request&#39;s hostname for example or by any resolver. You can create your own Tenant&#39;s resolver or use the default one. The tenant can have a database connection string or any property that you need.</p>
+<p>To start you need to setup the Resolver and Tenants in your OWIN AppBuilder, for example:</p>
+<pre><code class="lang-csharp">public void ConfigureAuth(IAppBuilder app)
+{
+    // SetUp Multitenancy with TenantCore
+    var tenants = new List&lt;ITenant&gt;
+    {
+        new Tenant(&quot;local&quot;, &quot;localhost&quot;, @&quot;Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\local.mdf;Initial Catalog=local;Integrated Security=True&quot;),
+        new Tenant(&quot;sample&quot;, &quot;sample.local&quot;, @&quot;Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\sample.mdf;Initial Catalog=sample;Integrated Security=True&quot;),
+        new Tenant(&quot;fake&quot;, &quot;fake.local&quot;, @&quot;Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\fake.mdf;Initial Catalog=fake;Integrated Security=True&quot;)
+    };
+
+    app.UseTenantCore(new HostNameTenantResolver(tenants));
+
+    // Configure the db context and user manager to use a single instance per request
+    app.CreatePerOwinContext&lt;ApplicationDbContext&gt;(ApplicationDbContext.Create);
+    app.CreatePerOwinContext&lt;ApplicationUserManager&gt;(ApplicationUserManager.Create);
+
+    // And continue with your middleware and settings
+}
+</code></pre><p>If you want to have a database per tenant, you need to change your DbContext or IdentityDbContext to have a Create method
+with parameters:</p>
+<pre><code class="lang-csharp">public static ApplicationDbContext Create(IdentityFactoryOptions&lt;ApplicationDbContext&gt; options,
+    IOwinContext context)
+{
+    return context.GetDbContext&lt;ApplicationDbContext&gt;();
+}
+</code></pre><p>The GetDbContext is an extension method in TenantCore, it will find the current Tenant and get the ConnectionString. The ConnectionString
+will be used with your DbContext, so be sure to have a constructor with connectionstring param like this:</p>
+<pre><code class="lang-csharp">public ApplicationDbContext(string connectionString)
+            : base(connectionString, throwIfV1Schema: false) {}
+</code></pre><p>Now in your ApiController you can use the Tenant or DbContext with some extension methods, for example:</p>
+<pre><code class="lang-csharp">[HttpGet, Route(&quot;register/{id}&quot;)]
+public async Task&lt;IHttpActionResult&gt; Register(string id)
+{
+    // Gets the DbContext related to current Tenant
+    var database = HttpContext.Current.GetDbContext&lt;ApplicationDbContext&gt;();
+    // Gets the current Tenant
+    var tenant = HttpContext.Current.GetCurrentTenant();
+}
+</code></pre>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/unosquare/tenantcore/blob/master/README.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © 2015-2016 Microsoft<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>
