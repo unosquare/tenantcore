@@ -1,1 +1,208 @@
-{"homepages":[],"source_base_path":"C:/projects/tenantcore","xrefmap":"xrefmap.yml","files":[{"type":"ManagedReference","source_relative_path":"obj/api/Unosquare.TenantCore.yml","output":{".html":{"relative_path":"api/Unosquare.TenantCore.html","hash":"5wudeJyR3xU7q5VMz8tT5g=="}},"is_incremental":false},{"type":"ManagedReference","source_relative_path":"obj/api/Unosquare.TenantCore.HostNameTenantResolver.yml","output":{".html":{"relative_path":"api/Unosquare.TenantCore.HostNameTenantResolver.html","hash":"4LR949GJ2wMScm+lGMWfHA=="}},"is_incremental":false},{"type":"ManagedReference","source_relative_path":"obj/api/Unosquare.TenantCore.ITenant.yml","output":{".html":{"relative_path":"api/Unosquare.TenantCore.ITenant.html","hash":"GQOab3bFJTzUAWDePykenA=="}},"is_incremental":false},{"type":"ManagedReference","source_relative_path":"obj/api/Unosquare.TenantCore.OwinExtensions.yml","output":{".html":{"relative_path":"api/Unosquare.TenantCore.OwinExtensions.html","hash":"caLqbAJ0NbnjA+kbG2nhug=="}},"is_incremental":false},{"type":"ManagedReference","source_relative_path":"obj/api/Unosquare.TenantCore.Tenant.yml","output":{".html":{"relative_path":"api/Unosquare.TenantCore.Tenant.html","hash":"5Q8fFWOVQt04wIdLtSCLvg=="}},"is_incremental":false},{"type":"ManagedReference","source_relative_path":"obj/api/Unosquare.TenantCore.TenantResolverBase.yml","output":{".html":{"relative_path":"api/Unosquare.TenantCore.TenantResolverBase.html","hash":"dF24sky76MN4wWoDrBUg5A=="}},"is_incremental":false},{"type":"Toc","source_relative_path":"obj/api/toc.yml","output":{".html":{"relative_path":"api/toc.html","hash":"fPbL/l2Y4mHwYXmcRbnasQ=="}},"is_incremental":false},{"type":"Toc","source_relative_path":"toc.yml","output":{".html":{"relative_path":"toc.html","hash":"uT+pW2U4VRnx4szid56flg=="}},"is_incremental":false},{"type":"Conceptual","source_relative_path":"README.md","output":{".html":{"relative_path":"README.html","hash":"j1BeJy4nU3FlKaZyMAqxCA=="}},"is_incremental":false},{"type":"ManagedReference","source_relative_path":"obj/api/Unosquare.TenantCore.ITenantResolver.yml","output":{".html":{"relative_path":"api/Unosquare.TenantCore.ITenantResolver.html","hash":"43Orh56hgZOj6hn11bnIHA=="}},"is_incremental":false},{"type":"ManagedReference","source_relative_path":"obj/api/Unosquare.TenantCore.RouteTenantResolver.yml","output":{".html":{"relative_path":"api/Unosquare.TenantCore.RouteTenantResolver.html","hash":"SKpMyIjE1BU/6ai/vfO2Aw=="}},"is_incremental":false},{"type":"ManagedReference","source_relative_path":"obj/api/Unosquare.TenantCore.TenantCoreMiddleware.yml","output":{".html":{"relative_path":"api/Unosquare.TenantCore.TenantCoreMiddleware.html","hash":"64FTHdMOvTtLh+1avDG72A=="}},"is_incremental":false},{"type":"Resource","output":{"resource":{"relative_path":"index.json"}},"is_incremental":false}]}
+{
+  "homepages": [],
+  "source_base_path": "C:/projects/tenantcore",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html",
+          "hash": "W1L7uf8fB1eUCi/iELkXOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Unosquare.TenantCore.HostNameTenantResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unosquare.TenantCore.HostNameTenantResolver.html",
+          "hash": "9A827KIUNM+77al1W4Vq4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Unosquare.TenantCore.ITenant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unosquare.TenantCore.ITenant.html",
+          "hash": "ZlBWSN+CHfSyNh3dtwyNbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Unosquare.TenantCore.ITenantResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unosquare.TenantCore.ITenantResolver.html",
+          "hash": "ulMAp7AsqRNVlpreX6YgdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Unosquare.TenantCore.OwinExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unosquare.TenantCore.OwinExtensions.html",
+          "hash": "rdeNnXhj0jF5L8Wb1N/XeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Unosquare.TenantCore.RouteTenantResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unosquare.TenantCore.RouteTenantResolver.html",
+          "hash": "Lp6R2e9ukCa9pPVmliXGNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Unosquare.TenantCore.Tenant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unosquare.TenantCore.Tenant.html",
+          "hash": "nGcfzyNJx5+eh3OEELesEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Unosquare.TenantCore.TenantCoreMiddleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unosquare.TenantCore.TenantCoreMiddleware.html",
+          "hash": "0rLUVGcMkyxe21DpS2uVqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Unosquare.TenantCore.TenantResolverBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unosquare.TenantCore.TenantResolverBase.html",
+          "hash": "KkU1XnC0wTu0hGl1R1Cxdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Unosquare.TenantCore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Unosquare.TenantCore.html",
+          "hash": "hEDABG/7zc52f61vi+WumA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "OFeYVhVksNTgSg5WcVaAwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "H6egrFZb9eOsd20bPLjdDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "RestApiDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor RestApiDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

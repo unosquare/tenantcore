@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface ITenantResolver
    | TenantCore ">
-    <meta name="generator" content="docfx 2.12.1.0">
+    <meta name="generator" content="docfx 2.25.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,7 +18,9 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     <meta property="docfx:rel" content="../">
+    
   </head>
   <body data-spy="scroll" data-target="#affix">
     <div id="wrapper">
@@ -56,7 +58,7 @@
           </div>
         </div>
       </header>
-      <div role="main" class="container body-content">
+      <div class="container body-content">
         
         <div id="search-results">
           <div class="search-list"></div>
@@ -74,126 +76,126 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content">
-              
-              
-              <h1 id="Unosquare_TenantCore_ITenantResolver" data-uid="Unosquare.TenantCore.ITenantResolver">Interface ITenantResolver
-              </h1>
-              <div class="markdown level0 summary"><p>Public Tenant Resolver interface</p>
+            <article class="content wrap" id="_content" data-uid="Unosquare.TenantCore.ITenantResolver">
+  
+  
+  <h1 id="Unosquare_TenantCore_ITenantResolver" data-uid="Unosquare.TenantCore.ITenantResolver" class="text-break">Interface ITenantResolver
+  </h1>
+  <div class="markdown level0 summary"><p>Public Tenant Resolver interface</p>
 </div>
-              <div class="markdown level0 conceptual"></div>
-              <h6><strong>Namespace</strong>:Unosquare.TenantCore</h6>
-              <h6><strong>Assembly</strong>:cs.temp.dll.dll</h6>
-              <h5 id="Unosquare_TenantCore_ITenantResolver_syntax">Syntax</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public interface ITenantResolver</code></pre>
-              </div>
-              <h3 id="properties">Properties
-              </h3>
-              
-              
-              <a id="Unosquare_TenantCore_ITenantResolver_DatabaseIdentifier_" data-uid="Unosquare.TenantCore.ITenantResolver.DatabaseIdentifier*"></a>
-              <h4 id="Unosquare_TenantCore_ITenantResolver_DatabaseIdentifier" data-uid="Unosquare.TenantCore.ITenantResolver.DatabaseIdentifier">DatabaseIdentifier</h4>
-              <div class="markdown level1 summary"><p>Gets the Database Identifier, for example if
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Unosquare.TenantCore.html">Unosquare.TenantCore</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="Unosquare_TenantCore_ITenantResolver_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ITenantResolver</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Unosquare_TenantCore_ITenantResolver_DatabaseIdentifier_" data-uid="Unosquare.TenantCore.ITenantResolver.DatabaseIdentifier*"></a>
+  <h4 id="Unosquare_TenantCore_ITenantResolver_DatabaseIdentifier" data-uid="Unosquare.TenantCore.ITenantResolver.DatabaseIdentifier">DatabaseIdentifier</h4>
+  <div class="markdown level1 summary"><p>Gets the Database Identifier, for example if
 your tables contains TenantId column, this is your
 Identifier</p>
 </div>
-              <div class="markdown level1 conceptual"></div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">string DatabaseIdentifier { get; }</code></pre>
-              </div>
-              <h5 class="propertyValue">Property Value</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.String</span></td>
-                    <td></td>
-                  </tr>
-                </tbody>
-              </table>
-              <h3 id="methods">Methods
-              </h3>
-              
-              
-              <a id="Unosquare_TenantCore_ITenantResolver_GetTenants_" data-uid="Unosquare.TenantCore.ITenantResolver.GetTenants*"></a>
-              <h4 id="Unosquare_TenantCore_ITenantResolver_GetTenants" data-uid="Unosquare.TenantCore.ITenantResolver.GetTenants">GetTenants()</h4>
-              <div class="markdown level1 summary"><p>Retrieves the Tenants in the resolver</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string DatabaseIdentifier { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Unosquare_TenantCore_ITenantResolver_GetTenants_" data-uid="Unosquare.TenantCore.ITenantResolver.GetTenants*"></a>
+  <h4 id="Unosquare_TenantCore_ITenantResolver_GetTenants" data-uid="Unosquare.TenantCore.ITenantResolver.GetTenants">GetTenants()</h4>
+  <div class="markdown level1 summary"><p>Retrieves the Tenants in the resolver</p>
 </div>
-              <div class="markdown level1 conceptual"></div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">List&lt;ITenant&gt; GetTenants()</code></pre>
-              </div>
-              <h5 class="returns">Returns</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Unosquare.TenantCore.ITenant.html">ITenant</a>&gt;</td>
-                    <td><p>The Tenant&#39;s list</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;ITenant&gt; GetTenants()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Unosquare.TenantCore.ITenant.html">ITenant</a>&gt;</td>
+        <td><p>The Tenant&apos;s list</p>
 </td>
-                  </tr>
-                </tbody>
-              </table>
-              
-              
-              <a id="Unosquare_TenantCore_ITenantResolver_Resolve_" data-uid="Unosquare.TenantCore.ITenantResolver.Resolve*"></a>
-              <h4 id="Unosquare_TenantCore_ITenantResolver_Resolve_IOwinRequest_" data-uid="Unosquare.TenantCore.ITenantResolver.Resolve(IOwinRequest)">Resolve(IOwinRequest)</h4>
-              <div class="markdown level1 summary"><p>This method should take a Owin Request and
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unosquare_TenantCore_ITenantResolver_Resolve_" data-uid="Unosquare.TenantCore.ITenantResolver.Resolve*"></a>
+  <h4 id="Unosquare_TenantCore_ITenantResolver_Resolve_IOwinRequest_" data-uid="Unosquare.TenantCore.ITenantResolver.Resolve(IOwinRequest)">Resolve(IOwinRequest)</h4>
+  <div class="markdown level1 summary"><p>This method should take a Owin Request and
 resolve the possible Tenant</p>
 </div>
-              <div class="markdown level1 conceptual"></div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">ITenant Resolve(IOwinRequest request)</code></pre>
-              </div>
-              <h5 class="parameters">Parameters</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Name</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">IOwinRequest</span></td>
-                    <td><span class="parametername">request</span></td>
-                    <td><p>The request</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ITenant Resolve(IOwinRequest request)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IOwinRequest</span></td>
+        <td><span class="parametername">request</span></td>
+        <td><p>The request</p>
 </td>
-                  </tr>
-                </tbody>
-              </table>
-              <h5 class="returns">Returns</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><a class="xref" href="Unosquare.TenantCore.ITenant.html">ITenant</a></td>
-                    <td><p>The tenant</p>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unosquare.TenantCore.ITenant.html">ITenant</a></td>
+        <td><p>The tenant</p>
 </td>
-                  </tr>
-                </tbody>
-              </table>
-                        </article>
+      </tr>
+    </tbody>
+  </table>
+</article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
@@ -218,7 +220,7 @@ resolve the possible Tenant</p>
               <a href="#top">Back to top</a>
             </span>
             
-            <span>Copyright © 2015-2016 Microsoft<br>Generated by <strong>DocFX</strong></span>
+            <span>Copyright © 2015-2017 Microsoft<br>Generated by <strong>DocFX</strong></span>
           </div>
         </div>
       </footer>

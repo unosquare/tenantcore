@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class HostNameTenantResolver
    | TenantCore ">
-    <meta name="generator" content="docfx 2.12.1.0">
+    <meta name="generator" content="docfx 2.25.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -18,7 +18,9 @@
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
+    
     <meta property="docfx:rel" content="../">
+    
   </head>
   <body data-spy="scroll" data-target="#affix">
     <div id="wrapper">
@@ -56,7 +58,7 @@
           </div>
         </div>
       </header>
-      <div role="main" class="container body-content">
+      <div class="container body-content">
         
         <div id="search-results">
           <div class="search-list"></div>
@@ -74,179 +76,185 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content">
-              
-              
-              <h1 id="Unosquare_TenantCore_HostNameTenantResolver" data-uid="Unosquare.TenantCore.HostNameTenantResolver">Class HostNameTenantResolver
-              </h1>
-              <div class="markdown level0 summary"><p>Tenant Resolver class using request&#39;s hostname as key to find
+            <article class="content wrap" id="_content" data-uid="Unosquare.TenantCore.HostNameTenantResolver">
+  
+  
+  <h1 id="Unosquare_TenantCore_HostNameTenantResolver" data-uid="Unosquare.TenantCore.HostNameTenantResolver" class="text-break">Class HostNameTenantResolver
+  </h1>
+  <div class="markdown level0 summary"><p>Tenant Resolver class using request&apos;s hostname as key to find
 a possible Tenant</p>
 </div>
-              <div class="markdown level0 conceptual"></div>
-              <div class="inheritance">
-                <h5>Inheritance</h5>
-                  <div class="level0"><span class="xref">System.Object</span></div>
-                  <div class="level1"><a class="xref" href="Unosquare.TenantCore.TenantResolverBase.html">TenantResolverBase</a></div>
-                  <div class="level2"><span class="xref">HostNameTenantResolver</span></div>
-              </div>
-              <div class="inheritedMembers">
-                <h5>Inherited Members</h5>
-                <div>
-                  <a class="xref" href="Unosquare.TenantCore.TenantResolverBase.html#Unosquare_TenantCore_TenantResolverBase_Tenants">TenantResolverBase.Tenants</a>
-                </div>
-                <div>
-                  <a class="xref" href="Unosquare.TenantCore.TenantResolverBase.html#Unosquare_TenantCore_TenantResolverBase_Add_Unosquare_TenantCore_ITenant_">TenantResolverBase.Add(ITenant)</a>
-                </div>
-                <div>
-                  <a class="xref" href="Unosquare.TenantCore.TenantResolverBase.html#Unosquare_TenantCore_TenantResolverBase_GetTenants">TenantResolverBase.GetTenants()</a>
-                </div>
-                <div>
-                  <a class="xref" href="Unosquare.TenantCore.TenantResolverBase.html#Unosquare_TenantCore_TenantResolverBase_DatabaseIdentifier">TenantResolverBase.DatabaseIdentifier</a>
-                </div>
-                <div>
-                  <span class="xref">System.Object.ToString()</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.Equals(System.Object)</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.GetHashCode()</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.GetType()</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.MemberwiseClone()</span>
-                </div>
-              </div>
-              <h6><strong>Namespace</strong>:Unosquare.TenantCore</h6>
-              <h6><strong>Assembly</strong>:cs.temp.dll.dll</h6>
-              <h5 id="Unosquare_TenantCore_HostNameTenantResolver_syntax">Syntax</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public class HostNameTenantResolver : TenantResolverBase, ITenantResolver</code></pre>
-              </div>
-              <h3 id="constructors">Constructors
-              </h3>
-              
-              
-              <a id="Unosquare_TenantCore_HostNameTenantResolver__ctor_" data-uid="Unosquare.TenantCore.HostNameTenantResolver.#ctor*"></a>
-              <h4 id="Unosquare_TenantCore_HostNameTenantResolver__ctor_System_Collections_Generic_IEnumerable_Unosquare_TenantCore_ITenant__System_String_" data-uid="Unosquare.TenantCore.HostNameTenantResolver.#ctor(System.Collections.Generic.IEnumerable{Unosquare.TenantCore.ITenant},System.String)">HostNameTenantResolver(IEnumerable&lt;ITenant&gt;, String)</h4>
-              <div class="markdown level1 summary"><p>Instances a new resolver with a tenant list</p>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Unosquare.TenantCore.TenantResolverBase.html">TenantResolverBase</a></div>
+    <div class="level2"><span class="xref">HostNameTenantResolver</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Unosquare.TenantCore.ITenantResolver.html">ITenantResolver</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Unosquare.TenantCore.TenantResolverBase.html#Unosquare_TenantCore_TenantResolverBase_Tenants">TenantResolverBase.Tenants</a>
+    </div>
+    <div>
+      <a class="xref" href="Unosquare.TenantCore.TenantResolverBase.html#Unosquare_TenantCore_TenantResolverBase_Add_Unosquare_TenantCore_ITenant_">TenantResolverBase.Add(ITenant)</a>
+    </div>
+    <div>
+      <a class="xref" href="Unosquare.TenantCore.TenantResolverBase.html#Unosquare_TenantCore_TenantResolverBase_GetTenants">TenantResolverBase.GetTenants()</a>
+    </div>
+    <div>
+      <a class="xref" href="Unosquare.TenantCore.TenantResolverBase.html#Unosquare_TenantCore_TenantResolverBase_DatabaseIdentifier">TenantResolverBase.DatabaseIdentifier</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Unosquare.TenantCore.html">Unosquare.TenantCore</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="Unosquare_TenantCore_HostNameTenantResolver_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class HostNameTenantResolver : TenantResolverBase, ITenantResolver</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Unosquare_TenantCore_HostNameTenantResolver__ctor_" data-uid="Unosquare.TenantCore.HostNameTenantResolver.#ctor*"></a>
+  <h4 id="Unosquare_TenantCore_HostNameTenantResolver__ctor_System_Collections_Generic_IEnumerable_Unosquare_TenantCore_ITenant__System_String_" data-uid="Unosquare.TenantCore.HostNameTenantResolver.#ctor(System.Collections.Generic.IEnumerable{Unosquare.TenantCore.ITenant},System.String)">HostNameTenantResolver(IEnumerable&lt;ITenant&gt;, String)</h4>
+  <div class="markdown level1 summary"><p>Instances a new resolver with a tenant list</p>
 </div>
-              <div class="markdown level1 conceptual"></div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public HostNameTenantResolver(IEnumerable&lt;ITenant&gt; tenants, string databaseIdentifier = null)</code></pre>
-              </div>
-              <h5 class="parameters">Parameters</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Name</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Unosquare.TenantCore.ITenant.html">ITenant</a>&gt;</td>
-                    <td><span class="parametername">tenants</span></td>
-                    <td><p>The list of tenants</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HostNameTenantResolver(IEnumerable&lt;ITenant&gt; tenants, string databaseIdentifier = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Unosquare.TenantCore.ITenant.html">ITenant</a>&gt;</td>
+        <td><span class="parametername">tenants</span></td>
+        <td><p>The list of tenants</p>
 </td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.String</span></td>
-                    <td><span class="parametername">databaseIdentifier</span></td>
-                    <td><p>The Database Identifier</p>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">databaseIdentifier</span></td>
+        <td><p>The Database Identifier</p>
 </td>
-                  </tr>
-                </tbody>
-              </table>
-              
-              
-              <a id="Unosquare_TenantCore_HostNameTenantResolver__ctor_" data-uid="Unosquare.TenantCore.HostNameTenantResolver.#ctor*"></a>
-              <h4 id="Unosquare_TenantCore_HostNameTenantResolver__ctor_System_String_" data-uid="Unosquare.TenantCore.HostNameTenantResolver.#ctor(System.String)">HostNameTenantResolver(String)</h4>
-              <div class="markdown level1 summary"><p>Instances a new Resolver without tenants</p>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Unosquare_TenantCore_HostNameTenantResolver__ctor_" data-uid="Unosquare.TenantCore.HostNameTenantResolver.#ctor*"></a>
+  <h4 id="Unosquare_TenantCore_HostNameTenantResolver__ctor_System_String_" data-uid="Unosquare.TenantCore.HostNameTenantResolver.#ctor(System.String)">HostNameTenantResolver(String)</h4>
+  <div class="markdown level1 summary"><p>Instances a new Resolver without tenants</p>
 </div>
-              <div class="markdown level1 conceptual"></div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public HostNameTenantResolver(string databaseIdentifier = null)</code></pre>
-              </div>
-              <h5 class="parameters">Parameters</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Name</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.String</span></td>
-                    <td><span class="parametername">databaseIdentifier</span></td>
-                    <td><p>The Database Identifier</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HostNameTenantResolver(string databaseIdentifier = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">databaseIdentifier</span></td>
+        <td><p>The Database Identifier</p>
 </td>
-                  </tr>
-                </tbody>
-              </table>
-              <h3 id="methods">Methods
-              </h3>
-              
-              
-              <a id="Unosquare_TenantCore_HostNameTenantResolver_Resolve_" data-uid="Unosquare.TenantCore.HostNameTenantResolver.Resolve*"></a>
-              <h4 id="Unosquare_TenantCore_HostNameTenantResolver_Resolve_IOwinRequest_" data-uid="Unosquare.TenantCore.HostNameTenantResolver.Resolve(IOwinRequest)">Resolve(IOwinRequest)</h4>
-              <div class="markdown level1 summary"><p>Resolves a tenant request using hostname</p>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Unosquare_TenantCore_HostNameTenantResolver_Resolve_" data-uid="Unosquare.TenantCore.HostNameTenantResolver.Resolve*"></a>
+  <h4 id="Unosquare_TenantCore_HostNameTenantResolver_Resolve_IOwinRequest_" data-uid="Unosquare.TenantCore.HostNameTenantResolver.Resolve(IOwinRequest)">Resolve(IOwinRequest)</h4>
+  <div class="markdown level1 summary"><p>Resolves a tenant request using hostname</p>
 </div>
-              <div class="markdown level1 conceptual"></div>
-              <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public ITenant Resolve(IOwinRequest request)</code></pre>
-              </div>
-              <h5 class="parameters">Parameters</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Name</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">IOwinRequest</span></td>
-                    <td><span class="parametername">request</span></td>
-                    <td><p>The request</p>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ITenant Resolve(IOwinRequest request)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IOwinRequest</span></td>
+        <td><span class="parametername">request</span></td>
+        <td><p>The request</p>
 </td>
-                  </tr>
-                </tbody>
-              </table>
-              <h5 class="returns">Returns</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><a class="xref" href="Unosquare.TenantCore.ITenant.html">ITenant</a></td>
-                    <td><p>The tenant or null</p>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Unosquare.TenantCore.ITenant.html">ITenant</a></td>
+        <td><p>The tenant or null</p>
 </td>
-                  </tr>
-                </tbody>
-              </table>
-              <h5 class="implements">Implements</h5>
-                  <div><a class="xref" href="Unosquare.TenantCore.ITenantResolver.html#Unosquare_TenantCore_ITenantResolver_Resolve_IOwinRequest_">ITenantResolver.Resolve(IOwinRequest)</a></div>
-                        </article>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Unosquare.TenantCore.ITenantResolver.html">ITenantResolver</a>
+  </div>
+</article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
@@ -271,7 +279,7 @@ a possible Tenant</p>
               <a href="#top">Back to top</a>
             </span>
             
-            <span>Copyright © 2015-2016 Microsoft<br>Generated by <strong>DocFX</strong></span>
+            <span>Copyright © 2015-2017 Microsoft<br>Generated by <strong>DocFX</strong></span>
           </div>
         </div>
       </footer>
