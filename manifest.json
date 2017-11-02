@@ -18,7 +18,40 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "W1L7uf8fB1eUCi/iELkXOw=="
+          "hash": "g+J0k87ycbJUYAPgpCQwhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "best-practices/resources/images/doc_logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "best-practices/resources/images/doc_logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "best-practices/resources/images/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "best-practices/resources/images/logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "best-practices/resources/images/transparent.gif",
+      "output": {
+        "resource": {
+          "relative_path": "best-practices/resources/images/transparent.gif"
         }
       },
       "is_incremental": false,
@@ -30,7 +63,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Unosquare.TenantCore.HostNameTenantResolver.html",
-          "hash": "9A827KIUNM+77al1W4Vq4g=="
+          "hash": "tPRAONxxi+XQBtWzorZn8Q=="
         }
       },
       "is_incremental": false,
@@ -42,7 +75,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Unosquare.TenantCore.ITenant.html",
-          "hash": "ZlBWSN+CHfSyNh3dtwyNbg=="
+          "hash": "TEM1FQ+cvJFWnK8KO8R5OA=="
         }
       },
       "is_incremental": false,
@@ -54,7 +87,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Unosquare.TenantCore.ITenantResolver.html",
-          "hash": "ulMAp7AsqRNVlpreX6YgdQ=="
+          "hash": "HupRts9aP/6QdAdaCEQcwQ=="
         }
       },
       "is_incremental": false,
@@ -66,7 +99,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Unosquare.TenantCore.OwinExtensions.html",
-          "hash": "rdeNnXhj0jF5L8Wb1N/XeA=="
+          "hash": "ITQiAwKoPz+8hSj/Enm8NQ=="
         }
       },
       "is_incremental": false,
@@ -78,7 +111,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Unosquare.TenantCore.RouteTenantResolver.html",
-          "hash": "Lp6R2e9ukCa9pPVmliXGNg=="
+          "hash": "wgjz3E64CUD8jlLsiL6/ag=="
         }
       },
       "is_incremental": false,
@@ -90,7 +123,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Unosquare.TenantCore.Tenant.html",
-          "hash": "nGcfzyNJx5+eh3OEELesEg=="
+          "hash": "THd+QAvW4Wf/5Wj/w2duyQ=="
         }
       },
       "is_incremental": false,
@@ -102,7 +135,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Unosquare.TenantCore.TenantCoreMiddleware.html",
-          "hash": "0rLUVGcMkyxe21DpS2uVqg=="
+          "hash": "qAb+E7+yc9kU7ljCkcbBtQ=="
         }
       },
       "is_incremental": false,
@@ -114,7 +147,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Unosquare.TenantCore.TenantResolverBase.html",
-          "hash": "KkU1XnC0wTu0hGl1R1Cxdw=="
+          "hash": "1Vb0eoVoUaax0/jVkk55uA=="
         }
       },
       "is_incremental": false,
@@ -126,7 +159,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Unosquare.TenantCore.html",
-          "hash": "hEDABG/7zc52f61vi+WumA=="
+          "hash": "a9Jkx+tYKr1iW7EnLupe0Q=="
         }
       },
       "is_incremental": false,
@@ -138,7 +171,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "OFeYVhVksNTgSg5WcVaAwg=="
+          "hash": "/ggO26s5rincA8WfvNEYQA=="
         }
       },
       "is_incremental": false,
@@ -150,7 +183,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "H6egrFZb9eOsd20bPLjdDA=="
+          "hash": "NVo673sF5D3z+svXLDBpkg=="
         }
       },
       "is_incremental": false,
@@ -160,8 +193,7 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build"
       },
       "processors": {
@@ -170,22 +202,22 @@
           "details": "Processor RestApiDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build"
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build"
-        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }
