@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "g+J0k87ycbJUYAPgpCQwhA=="
+          "hash": "s4L1/wNp73dvxwhT5odBAg=="
         }
       },
       "is_incremental": false,
@@ -63,7 +63,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Unosquare.TenantCore.HostNameTenantResolver.html",
-          "hash": "tPRAONxxi+XQBtWzorZn8Q=="
+          "hash": "HukkqxqXjR9VcZFDLrjcOQ=="
         }
       },
       "is_incremental": false,
@@ -75,7 +75,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Unosquare.TenantCore.ITenant.html",
-          "hash": "TEM1FQ+cvJFWnK8KO8R5OA=="
+          "hash": "rGEV9ypiESJDdzBceioQpA=="
         }
       },
       "is_incremental": false,
@@ -87,7 +87,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Unosquare.TenantCore.ITenantResolver.html",
-          "hash": "HupRts9aP/6QdAdaCEQcwQ=="
+          "hash": "XIOZJbOw1vunqyg9/vwkhg=="
         }
       },
       "is_incremental": false,
@@ -99,7 +99,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Unosquare.TenantCore.OwinExtensions.html",
-          "hash": "ITQiAwKoPz+8hSj/Enm8NQ=="
+          "hash": "bufgGg0Lfjbzr7iDyxCT6w=="
         }
       },
       "is_incremental": false,
@@ -111,7 +111,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Unosquare.TenantCore.RouteTenantResolver.html",
-          "hash": "wgjz3E64CUD8jlLsiL6/ag=="
+          "hash": "hRDT58i+xpYckOG5vDRQrQ=="
         }
       },
       "is_incremental": false,
@@ -123,7 +123,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Unosquare.TenantCore.Tenant.html",
-          "hash": "THd+QAvW4Wf/5Wj/w2duyQ=="
+          "hash": "KNE4hoxs045LwyFBrSMsrg=="
         }
       },
       "is_incremental": false,
@@ -135,7 +135,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Unosquare.TenantCore.TenantCoreMiddleware.html",
-          "hash": "qAb+E7+yc9kU7ljCkcbBtQ=="
+          "hash": "pfMe09PT5gexWOQe5TIh3w=="
         }
       },
       "is_incremental": false,
@@ -147,7 +147,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Unosquare.TenantCore.TenantResolverBase.html",
-          "hash": "1Vb0eoVoUaax0/jVkk55uA=="
+          "hash": "tIxHEEWIm+FIkQUarWyDXQ=="
         }
       },
       "is_incremental": false,
@@ -159,7 +159,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Unosquare.TenantCore.html",
-          "hash": "a9Jkx+tYKr1iW7EnLupe0Q=="
+          "hash": "n0oudofduR8WhOwuIQBBnA=="
         }
       },
       "is_incremental": false,
@@ -197,27 +197,22 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "RestApiDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor RestApiDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
           "incrementalPhase": "build"
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build"
         },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build"
-        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }
