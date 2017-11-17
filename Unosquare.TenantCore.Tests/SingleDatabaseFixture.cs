@@ -52,7 +52,7 @@ namespace Unosquare.TenantCore.Tests
 
             var content = await response.Content.ReadAsStringAsync();
 
-            Assert.IsNotNullOrEmpty(content);
+            Assert.IsNotNull(content);
             Assert.AreEqual(content, _resolver.GetTenants().First().Name);
         }
     }
