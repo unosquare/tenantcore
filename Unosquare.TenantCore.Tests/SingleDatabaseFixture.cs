@@ -2,6 +2,7 @@
 using Microsoft.Owin.Testing;
 using NUnit.Framework;
 using Owin;
+using System.Threading.Tasks;
 using System.Collections.Generic;
 using System.Linq;
 using Unosquare.TenantCore.SampleDatabase;
