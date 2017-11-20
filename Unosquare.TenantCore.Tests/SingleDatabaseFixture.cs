@@ -44,7 +44,7 @@ namespace Unosquare.TenantCore.Tests
         }
 
         [Test]
-        public async void GetTenant()
+        public async Task GetTenant()
         {
             var response = await _server.HttpClient.GetAsync("/");
 
