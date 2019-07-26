@@ -32,6 +32,7 @@ references:
   name: HostNameTenantResolver
   href: api/Unosquare.TenantCore.HostNameTenantResolver.html#Unosquare_TenantCore_HostNameTenantResolver__ctor_
   commentId: Overload:Unosquare.TenantCore.HostNameTenantResolver.#ctor
+  isSpec: "True"
   fullName: Unosquare.TenantCore.HostNameTenantResolver.HostNameTenantResolver
   nameWithType: HostNameTenantResolver.HostNameTenantResolver
 - uid: Unosquare.TenantCore.HostNameTenantResolver.Resolve(IOwinRequest)
@@ -44,6 +45,7 @@ references:
   name: Resolve
   href: api/Unosquare.TenantCore.HostNameTenantResolver.html#Unosquare_TenantCore_HostNameTenantResolver_Resolve_
   commentId: Overload:Unosquare.TenantCore.HostNameTenantResolver.Resolve
+  isSpec: "True"
   fullName: Unosquare.TenantCore.HostNameTenantResolver.Resolve
   nameWithType: HostNameTenantResolver.Resolve
 - uid: Unosquare.TenantCore.ITenant
@@ -62,6 +64,7 @@ references:
   name: ConnectionString
   href: api/Unosquare.TenantCore.ITenant.html#Unosquare_TenantCore_ITenant_ConnectionString_
   commentId: Overload:Unosquare.TenantCore.ITenant.ConnectionString
+  isSpec: "True"
   fullName: Unosquare.TenantCore.ITenant.ConnectionString
   nameWithType: ITenant.ConnectionString
 - uid: Unosquare.TenantCore.ITenant.Domain
@@ -74,6 +77,7 @@ references:
   name: Domain
   href: api/Unosquare.TenantCore.ITenant.html#Unosquare_TenantCore_ITenant_Domain_
   commentId: Overload:Unosquare.TenantCore.ITenant.Domain
+  isSpec: "True"
   fullName: Unosquare.TenantCore.ITenant.Domain
   nameWithType: ITenant.Domain
 - uid: Unosquare.TenantCore.ITenant.Id
@@ -86,6 +90,7 @@ references:
   name: Id
   href: api/Unosquare.TenantCore.ITenant.html#Unosquare_TenantCore_ITenant_Id_
   commentId: Overload:Unosquare.TenantCore.ITenant.Id
+  isSpec: "True"
   fullName: Unosquare.TenantCore.ITenant.Id
   nameWithType: ITenant.Id
 - uid: Unosquare.TenantCore.ITenant.Name
@@ -98,6 +103,7 @@ references:
   name: Name
   href: api/Unosquare.TenantCore.ITenant.html#Unosquare_TenantCore_ITenant_Name_
   commentId: Overload:Unosquare.TenantCore.ITenant.Name
+  isSpec: "True"
   fullName: Unosquare.TenantCore.ITenant.Name
   nameWithType: ITenant.Name
 - uid: Unosquare.TenantCore.ITenant.Properties
@@ -110,6 +116,7 @@ references:
   name: Properties
   href: api/Unosquare.TenantCore.ITenant.html#Unosquare_TenantCore_ITenant_Properties_
   commentId: Overload:Unosquare.TenantCore.ITenant.Properties
+  isSpec: "True"
   fullName: Unosquare.TenantCore.ITenant.Properties
   nameWithType: ITenant.Properties
 - uid: Unosquare.TenantCore.ITenant.Resolver
@@ -122,6 +129,7 @@ references:
   name: Resolver
   href: api/Unosquare.TenantCore.ITenant.html#Unosquare_TenantCore_ITenant_Resolver_
   commentId: Overload:Unosquare.TenantCore.ITenant.Resolver
+  isSpec: "True"
   fullName: Unosquare.TenantCore.ITenant.Resolver
   nameWithType: ITenant.Resolver
 - uid: Unosquare.TenantCore.ITenantResolver
@@ -140,6 +148,7 @@ references:
   name: DatabaseIdentifier
   href: api/Unosquare.TenantCore.ITenantResolver.html#Unosquare_TenantCore_ITenantResolver_DatabaseIdentifier_
   commentId: Overload:Unosquare.TenantCore.ITenantResolver.DatabaseIdentifier
+  isSpec: "True"
   fullName: Unosquare.TenantCore.ITenantResolver.DatabaseIdentifier
   nameWithType: ITenantResolver.DatabaseIdentifier
 - uid: Unosquare.TenantCore.ITenantResolver.GetTenants
@@ -152,6 +161,7 @@ references:
   name: GetTenants
   href: api/Unosquare.TenantCore.ITenantResolver.html#Unosquare_TenantCore_ITenantResolver_GetTenants_
   commentId: Overload:Unosquare.TenantCore.ITenantResolver.GetTenants
+  isSpec: "True"
   fullName: Unosquare.TenantCore.ITenantResolver.GetTenants
   nameWithType: ITenantResolver.GetTenants
 - uid: Unosquare.TenantCore.ITenantResolver.Resolve(IOwinRequest)
@@ -164,6 +174,7 @@ references:
   name: Resolve
   href: api/Unosquare.TenantCore.ITenantResolver.html#Unosquare_TenantCore_ITenantResolver_Resolve_
   commentId: Overload:Unosquare.TenantCore.ITenantResolver.Resolve
+  isSpec: "True"
   fullName: Unosquare.TenantCore.ITenantResolver.Resolve
   nameWithType: ITenantResolver.Resolve
 - uid: Unosquare.TenantCore.OwinExtensions
@@ -188,12 +199,14 @@ references:
   name: GetCurrentTenant
   href: api/Unosquare.TenantCore.OwinExtensions.html#Unosquare_TenantCore_OwinExtensions_GetCurrentTenant_
   commentId: Overload:Unosquare.TenantCore.OwinExtensions.GetCurrentTenant
+  isSpec: "True"
   fullName: Unosquare.TenantCore.OwinExtensions.GetCurrentTenant
   nameWithType: OwinExtensions.GetCurrentTenant
 - uid: Unosquare.TenantCore.OwinExtensions.GetDbContext*
   name: GetDbContext
   href: api/Unosquare.TenantCore.OwinExtensions.html#Unosquare_TenantCore_OwinExtensions_GetDbContext_
   commentId: Overload:Unosquare.TenantCore.OwinExtensions.GetDbContext
+  isSpec: "True"
   fullName: Unosquare.TenantCore.OwinExtensions.GetDbContext
   nameWithType: OwinExtensions.GetDbContext
 - uid: Unosquare.TenantCore.OwinExtensions.GetDbContext``1(HttpContext)
@@ -218,6 +231,7 @@ references:
   name: GetDbSet
   href: api/Unosquare.TenantCore.OwinExtensions.html#Unosquare_TenantCore_OwinExtensions_GetDbSet_
   commentId: Overload:Unosquare.TenantCore.OwinExtensions.GetDbSet
+  isSpec: "True"
   fullName: Unosquare.TenantCore.OwinExtensions.GetDbSet
   nameWithType: OwinExtensions.GetDbSet
 - uid: Unosquare.TenantCore.OwinExtensions.GetDbSet``1(DbContext,HttpContext)
@@ -242,6 +256,7 @@ references:
   name: UseTenantCore
   href: api/Unosquare.TenantCore.OwinExtensions.html#Unosquare_TenantCore_OwinExtensions_UseTenantCore_
   commentId: Overload:Unosquare.TenantCore.OwinExtensions.UseTenantCore
+  isSpec: "True"
   fullName: Unosquare.TenantCore.OwinExtensions.UseTenantCore
   nameWithType: OwinExtensions.UseTenantCore
 - uid: Unosquare.TenantCore.RouteTenantResolver
@@ -263,6 +278,7 @@ references:
   name: RouteTenantResolver
   href: api/Unosquare.TenantCore.RouteTenantResolver.html#Unosquare_TenantCore_RouteTenantResolver__ctor_
   commentId: Overload:Unosquare.TenantCore.RouteTenantResolver.#ctor
+  isSpec: "True"
   fullName: Unosquare.TenantCore.RouteTenantResolver.RouteTenantResolver
   nameWithType: RouteTenantResolver.RouteTenantResolver
 - uid: Unosquare.TenantCore.RouteTenantResolver.Resolve(IOwinRequest)
@@ -275,6 +291,7 @@ references:
   name: Resolve
   href: api/Unosquare.TenantCore.RouteTenantResolver.html#Unosquare_TenantCore_RouteTenantResolver_Resolve_
   commentId: Overload:Unosquare.TenantCore.RouteTenantResolver.Resolve
+  isSpec: "True"
   fullName: Unosquare.TenantCore.RouteTenantResolver.Resolve
   nameWithType: RouteTenantResolver.Resolve
 - uid: Unosquare.TenantCore.RouteTenantResolver.RouteName
@@ -299,6 +316,7 @@ references:
   name: Tenant
   href: api/Unosquare.TenantCore.Tenant.html#Unosquare_TenantCore_Tenant__ctor_
   commentId: Overload:Unosquare.TenantCore.Tenant.#ctor
+  isSpec: "True"
   fullName: Unosquare.TenantCore.Tenant.Tenant
   nameWithType: Tenant.Tenant
 - uid: Unosquare.TenantCore.Tenant.ConnectionString
@@ -311,6 +329,7 @@ references:
   name: ConnectionString
   href: api/Unosquare.TenantCore.Tenant.html#Unosquare_TenantCore_Tenant_ConnectionString_
   commentId: Overload:Unosquare.TenantCore.Tenant.ConnectionString
+  isSpec: "True"
   fullName: Unosquare.TenantCore.Tenant.ConnectionString
   nameWithType: Tenant.ConnectionString
 - uid: Unosquare.TenantCore.Tenant.Domain
@@ -323,6 +342,7 @@ references:
   name: Domain
   href: api/Unosquare.TenantCore.Tenant.html#Unosquare_TenantCore_Tenant_Domain_
   commentId: Overload:Unosquare.TenantCore.Tenant.Domain
+  isSpec: "True"
   fullName: Unosquare.TenantCore.Tenant.Domain
   nameWithType: Tenant.Domain
 - uid: Unosquare.TenantCore.Tenant.Id
@@ -335,6 +355,7 @@ references:
   name: Id
   href: api/Unosquare.TenantCore.Tenant.html#Unosquare_TenantCore_Tenant_Id_
   commentId: Overload:Unosquare.TenantCore.Tenant.Id
+  isSpec: "True"
   fullName: Unosquare.TenantCore.Tenant.Id
   nameWithType: Tenant.Id
 - uid: Unosquare.TenantCore.Tenant.Name
@@ -347,6 +368,7 @@ references:
   name: Name
   href: api/Unosquare.TenantCore.Tenant.html#Unosquare_TenantCore_Tenant_Name_
   commentId: Overload:Unosquare.TenantCore.Tenant.Name
+  isSpec: "True"
   fullName: Unosquare.TenantCore.Tenant.Name
   nameWithType: Tenant.Name
 - uid: Unosquare.TenantCore.Tenant.Properties
@@ -359,6 +381,7 @@ references:
   name: Properties
   href: api/Unosquare.TenantCore.Tenant.html#Unosquare_TenantCore_Tenant_Properties_
   commentId: Overload:Unosquare.TenantCore.Tenant.Properties
+  isSpec: "True"
   fullName: Unosquare.TenantCore.Tenant.Properties
   nameWithType: Tenant.Properties
 - uid: Unosquare.TenantCore.Tenant.Resolver
@@ -371,6 +394,7 @@ references:
   name: Resolver
   href: api/Unosquare.TenantCore.Tenant.html#Unosquare_TenantCore_Tenant_Resolver_
   commentId: Overload:Unosquare.TenantCore.Tenant.Resolver
+  isSpec: "True"
   fullName: Unosquare.TenantCore.Tenant.Resolver
   nameWithType: Tenant.Resolver
 - uid: Unosquare.TenantCore.TenantCoreMiddleware
@@ -392,6 +416,7 @@ references:
   name: TenantCoreMiddleware
   href: api/Unosquare.TenantCore.TenantCoreMiddleware.html#Unosquare_TenantCore_TenantCoreMiddleware__ctor_
   commentId: Overload:Unosquare.TenantCore.TenantCoreMiddleware.#ctor
+  isSpec: "True"
   fullName: Unosquare.TenantCore.TenantCoreMiddleware.TenantCoreMiddleware
   nameWithType: TenantCoreMiddleware.TenantCoreMiddleware
 - uid: Unosquare.TenantCore.TenantCoreMiddleware.Callback
@@ -410,6 +435,7 @@ references:
   name: Invoke
   href: api/Unosquare.TenantCore.TenantCoreMiddleware.html#Unosquare_TenantCore_TenantCoreMiddleware_Invoke_
   commentId: Overload:Unosquare.TenantCore.TenantCoreMiddleware.Invoke
+  isSpec: "True"
   fullName: Unosquare.TenantCore.TenantCoreMiddleware.Invoke
   nameWithType: TenantCoreMiddleware.Invoke
 - uid: Unosquare.TenantCore.TenantCoreMiddleware.OwinPropertyName
@@ -449,6 +475,7 @@ references:
   name: TenantResolverBase
   href: api/Unosquare.TenantCore.TenantResolverBase.html#Unosquare_TenantCore_TenantResolverBase__ctor_
   commentId: Overload:Unosquare.TenantCore.TenantResolverBase.#ctor
+  isSpec: "True"
   fullName: Unosquare.TenantCore.TenantResolverBase.TenantResolverBase
   nameWithType: TenantResolverBase.TenantResolverBase
 - uid: Unosquare.TenantCore.TenantResolverBase.Add(Unosquare.TenantCore.ITenant)
@@ -461,6 +488,7 @@ references:
   name: Add
   href: api/Unosquare.TenantCore.TenantResolverBase.html#Unosquare_TenantCore_TenantResolverBase_Add_
   commentId: Overload:Unosquare.TenantCore.TenantResolverBase.Add
+  isSpec: "True"
   fullName: Unosquare.TenantCore.TenantResolverBase.Add
   nameWithType: TenantResolverBase.Add
 - uid: Unosquare.TenantCore.TenantResolverBase.DatabaseIdentifier
@@ -473,6 +501,7 @@ references:
   name: DatabaseIdentifier
   href: api/Unosquare.TenantCore.TenantResolverBase.html#Unosquare_TenantCore_TenantResolverBase_DatabaseIdentifier_
   commentId: Overload:Unosquare.TenantCore.TenantResolverBase.DatabaseIdentifier
+  isSpec: "True"
   fullName: Unosquare.TenantCore.TenantResolverBase.DatabaseIdentifier
   nameWithType: TenantResolverBase.DatabaseIdentifier
 - uid: Unosquare.TenantCore.TenantResolverBase.GetTenants
@@ -485,6 +514,7 @@ references:
   name: GetTenants
   href: api/Unosquare.TenantCore.TenantResolverBase.html#Unosquare_TenantCore_TenantResolverBase_GetTenants_
   commentId: Overload:Unosquare.TenantCore.TenantResolverBase.GetTenants
+  isSpec: "True"
   fullName: Unosquare.TenantCore.TenantResolverBase.GetTenants
   nameWithType: TenantResolverBase.GetTenants
 - uid: Unosquare.TenantCore.TenantResolverBase.Tenants
