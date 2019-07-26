@@ -3,7 +3,7 @@
 [![Analytics](https://ga-beacon.appspot.com/UA-8535255-2/unosquare/tenantcore/)](https://github.com/igrigorik/ga-beacon)
 # TenantCore
 
-**Important** - This repository has been archived. We are not longer mantaining this project.
+**Important** - This repository has been archived. We are not longer maintaining  this project.
 
 TenantCore is an OWIN Middleware that it can help to resolve tenants, a multitenancy middleware, by request's hostname for example or by any resolver. You can create your own Tenant's resolver or use the default one. The tenant can have a database connection string or any property that you need.
 
